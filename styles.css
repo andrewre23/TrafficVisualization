@@ -17,10 +17,10 @@ html, body {
 
 #plots {
     padding: 2px;
-    background: lightgray;
+    background: lightskyblue;
     border-style: solid;
     width: 99%;
-    height: 88%;
+    height: 86%;
 }
 
 #topleft {
