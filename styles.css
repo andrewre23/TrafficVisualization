@@ -65,3 +65,7 @@ html, body {
     background: gray;
     float: right;
 }
+
+.databox{
+    border-style: wave;
+}
