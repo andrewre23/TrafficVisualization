@@ -6,7 +6,7 @@ html, body {
     background: lightcyan;
 }
 
-#titlebar{
+#titlebar {
     padding: 2px;
     text-align: center;
     background: lightskyblue;
@@ -15,7 +15,7 @@ html, body {
     height: 12%
 }
 
-#plots{
+#plots {
     padding: 2px;
     background: lightgray;
     border-style: solid;
