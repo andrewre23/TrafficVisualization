@@ -23,49 +23,49 @@ html, body {
     height: 86%;
 }
 
-#topleft {
-    width: 50%;
+#map {
+    width: 35%;
+    height: 100%;
+    background: lightcoral;
+    float: left;
+}
+
+#summary {
+    width: 25%;
     height: 45%;
     background: gray;
     float: left;
 }
 
-#topright {
-    width: 50%;
+#linegraph {
+    width: 40%;
     height: 45%;
     background: lightblue;
     float: right;
 }
 
 #middlebar {
-    width: 100%;
+    width: 65%;
     height: 10%;
     background: lightsalmon;
-    float: left;
+    float: right;
 
 }
 
-#bottomleft {
-    width: 33.3%;
-    height: 45%;
-    background: lightcoral;
-    float: left;
-}
-
-#middle {
-    width: 33.3%;
+#bar1 {
+    width: 30%;
     height: 45%;
     background: lightgreen;
     float: left;
 }
 
-#bottomright {
-    width: 33.3%;
+#bar2 {
+    width: 35%;
     height: 45%;
     background: gray;
     float: right;
 }
 
-.databox{
+.databox {
     border-style: wave;
 }
