@@ -1,0 +1,7 @@
+Road_Type,value
+Dual-Carriageway,1.4829
+One-Way,1.1794
+Roundabout,1.2468
+Single-Carriageway,1.3178
+Slip-Road,1.4206
+Unknown,1.2169
