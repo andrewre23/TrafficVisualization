@@ -53,6 +53,12 @@ html, body {
 
 }
 
+#categorydropdown{
+    display: block;
+    margin: 0 auto;
+}
+
+
 #bar1 {
     width: 32.5%;
     height: 45%;
@@ -79,3 +85,10 @@ html, body {
 
 .axis {
     font: 10px sans-serif;
+}
+
+h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

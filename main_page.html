@@ -11,7 +11,7 @@
 
 <div id="titlebar">
     <h2>Visual Dashboard for UK Traffic Accidents</h2>
-    <h3>Data from 2012-2014</h3>
+    <h3>Dataset ranging from January 1st, 2013 to December 31st, 2013</h3>
 </div>
 
 <div id="plots">
@@ -159,8 +159,8 @@
     </div>
 
     <div id="middlebar" class="databox">
-        Category:
-        <select onchange="updatebartotal(this.value);">
+        <h3>Select Attribute from Dataset</h3>
+        <select id ="categorydropdown" onchange="updatebartotal(this.value);">
             <option value="Day_of_Week" selected>Day of the Week</option>
             <option value="Road_Type">Road Type</option>
             <option value="Speed_limit">Speed Limit</option>
