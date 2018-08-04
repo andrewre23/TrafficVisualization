@@ -150,8 +150,8 @@
                     .attr("stroke-width", 1.5)
                     .attr("d", line);
 
-            console.log(data[0]);
-            console.log(data[0]['TimeHour']);
+                console.log(data[0]);
+                console.log(data[0]['TimeHour']);
             });
         </script>
 
@@ -160,7 +160,7 @@
 
     <div id="middlebar" class="databox">
         <h3>Select Attribute from Dataset</h3>
-        <select id ="categorydropdown" onchange="updatebartotal(this.value);">
+        <select id="categorydropdown" onchange="updatebartotal(this.value);">
             <option value="Day_of_Week" selected>Day of the Week</option>
             <option value="Road_Type">Road Type</option>
             <option value="Speed_limit">Speed Limit</option>
@@ -169,7 +169,6 @@
             <option value="Road_Surface_Conditions">Road Surface Conditions</option>
         </select>
     </div>
-
 
 
     <div id="bar1">

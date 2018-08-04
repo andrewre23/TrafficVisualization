@@ -55,62 +55,68 @@ function bar_total() {
         })]);
 
 
-
         var bars = svg.selectAll(".bar1")
             .data(data)
             .enter().append("g")
 
-            .attr("class", function(d){
+            .attr("class", function (d) {
                 return "bar1 " + "bar1_" + d[xLabel];
             })
 
-            .attr("id", function(d){
+            .attr("id", function (d) {
                 return "bar1_" + d[xLabel];
             })
-            .attr("transform", function(d)
-            { return "translate(" + x(d[xLabel]) + ", " + y(d[bartimeperiod]) +")"; });
+            .attr("transform", function (d) {
+                return "translate(" + x(d[xLabel]) + ", " + y(d[bartimeperiod]) + ")";
+            });
 
 
         bars.append("rect")
             .attr("width", 0.9 * x.bandwidth())
-            .attr("x", 0.05* x.bandwidth())
-            .attr("height", function(d) { return height - y(d[bartimeperiod]); })
-            .on("mouseover", function(d){
+            .attr("x", 0.05 * x.bandwidth())
+            .attr("height", function (d) {
+                return height - y(d[bartimeperiod]);
+            })
+            .on("mouseover", function (d) {
 
                 highlight_bar1(d[xLabel]);
                 highlight_bar(d[xLabel]);
             })
-            .on("mouseleave", function(d){
+            .on("mouseleave", function (d) {
                 unhighlight_bar1(d[xLabel]);
                 unhighlight_bar(d[xLabel]);
             })
-            .on("click", function(d){
-                if(barselection == d[xLabel]){
+            .on("click", function (d) {
+                if (barselection == d[xLabel]) {
                     unselect_bar1(d[xLabel]);
-                    unselect_bar(d[xLabel]);}
-                else{
+                    unselect_bar(d[xLabel]);
+                }
+                else {
                     select_bar1(d[xLabel]);
                     select_bar(d[xLabel]);
-                d3.event.stopPropagation();}
+                    d3.event.stopPropagation();
+                }
             });
 
         bars.append("text")
             .style("text-anchor", "middle")
-            .attr("id", function(d){
+            .attr("id", function (d) {
                 return "bar1_text_" + d[xLabel];
             })
 
-            .attr("class", function(d){
+            .attr("class", function (d) {
                 return "bar1_text_" + d[xLabel];
             })
 
-            .attr("dx", function(d){
-                return x.bandwidth()/2
+            .attr("dx", function (d) {
+                return x.bandwidth() / 2
             })
             .attr("dy", "-0.25em")
-            .text(function(d){return d[bartimeperiod];})
+            .text(function (d) {
+                return d[bartimeperiod];
+            })
             .style("stroke", "black")
-            .style("font-family" , "Calibri")
+            .style("font-family", "Calibri")
             .style("opacity", 1)
             .style("visibility", "hidden");
 
@@ -125,22 +131,22 @@ function bar_total() {
 
     });
 
-    highlight_bar1 = function(d){
-        svg.selectAll(".bar1").style("opacity",0.5);
-        svg.select(".bar1_" + d).style("opacity",1);
+    highlight_bar1 = function (d) {
+        svg.selectAll(".bar1").style("opacity", 0.5);
+        svg.select(".bar1_" + d).style("opacity", 1);
         svg.select(".bar1_text_" + d).style("visibility", "visible");
     };
-    unhighlight_bar1 = function(d){
-        svg.selectAll(".bar1").style("opacity",1);
+    unhighlight_bar1 = function (d) {
+        svg.selectAll(".bar1").style("opacity", 1);
         //svg.select("#bar1_" + d).style("fill", "steelblue");
         svg.select("#bar1_text_" + d).style("visibility", "hidden");
     };
-    select_bar1 = function(d){
+    select_bar1 = function (d) {
         barselection = d;
         console.log(barselection);
-        svg.select(".bar1_" + d).style("fill", "#315b7d").style("opacity",1);
+        svg.select(".bar1_" + d).style("fill", "#315b7d").style("opacity", 1);
     };
-    unselect_bar1 = function(d){
+    unselect_bar1 = function (d) {
         barselection = "none";
         svg.select("#bar1_" + d).style("fill", "steelblue");
     };
@@ -212,63 +218,69 @@ function bar_avg() {
         })]);
 
 
-
         var bars = svg.selectAll(".bar")
             .data(data)
             .enter().append("g")
 
-            .attr("class", function(d){
+            .attr("class", function (d) {
                 return "bar " + "bar_" + d[xLabel];
             })
 
-            .attr("id", function(d){
+            .attr("id", function (d) {
                 return "bar_" + d[xLabel];
             })
-            .attr("transform", function(d)
-            { return "translate(" + x(d[xLabel]) + ", " + y(d[bartimeperiod]) +")"; });
+            .attr("transform", function (d) {
+                return "translate(" + x(d[xLabel]) + ", " + y(d[bartimeperiod]) + ")";
+            });
 
 
         bars.append("rect")
             .attr("width", 0.9 * x.bandwidth())
-            .attr("x", 0.05* x.bandwidth())
-            .attr("height", function(d) { return height - y(d[bartimeperiod]); })
-            .on("mouseover", function(d){
+            .attr("x", 0.05 * x.bandwidth())
+            .attr("height", function (d) {
+                return height - y(d[bartimeperiod]);
+            })
+            .on("mouseover", function (d) {
 
                 highlight_bar(d[xLabel]);
                 highlight_bar1(d[xLabel]);
             })
-            .on("mouseleave", function(d){
+            .on("mouseleave", function (d) {
                 unhighlight_bar(d[xLabel]);
                 unhighlight_bar1(d[xLabel]);
             })
-            .on("click", function(d){
-                if(barselection == d[xLabel]){
+            .on("click", function (d) {
+                if (barselection == d[xLabel]) {
                     unselect_bar1(d[xLabel]);
-                    unselect_bar(d[xLabel]);}
-                else{
+                    unselect_bar(d[xLabel]);
+                }
+                else {
                     select_bar1(d[xLabel]);
                     select_bar(d[xLabel]);
-                    d3.event.stopPropagation();}
+                    d3.event.stopPropagation();
+                }
             });
 
         bars.append("text")
             .style("text-anchor", "middle")
-            .attr("id", function(d){
+            .attr("id", function (d) {
                 return "bar_text_" + d[xLabel];
             })
 
-            .attr("class", function(d){
+            .attr("class", function (d) {
                 return "bar_text_" + d[xLabel];
             })
 
-            .attr("dx", function(d){
-                return x.bandwidth()/2
+            .attr("dx", function (d) {
+                return x.bandwidth() / 2
             })
             .attr("dy", "-0.25em")
             //.attr("transform", "rotate(-90)")
-            .text(function(d){return d[bartimeperiod] + "%";})
+            .text(function (d) {
+                return d[bartimeperiod] + "%";
+            })
             .style("stroke", "black")
-            .style("font-family" , "Calibri")
+            .style("font-family", "Calibri")
             .style("opacity", 1)
             .style("visibility", "hidden");
 
@@ -284,28 +296,28 @@ function bar_avg() {
 
     });
 
-    highlight_bar = function(d){
-        svg.selectAll(".bar").style("opacity",0.5);
-        svg.select(".bar_" + d).style("opacity",1);
+    highlight_bar = function (d) {
+        svg.selectAll(".bar").style("opacity", 0.5);
+        svg.select(".bar_" + d).style("opacity", 1);
         svg.select(".bar_text_" + d).style("visibility", "visible");
     };
-    unhighlight_bar = function(d){
-        svg.selectAll(".bar").style("opacity",1);
+    unhighlight_bar = function (d) {
+        svg.selectAll(".bar").style("opacity", 1);
         //svg.select(".bar_" + d).style("fill", "steelblue");
         svg.select(".bar_text_" + d).style("visibility", "hidden");
     };
-    select_bar = function(d){
+    select_bar = function (d) {
         barselection = d;
         console.log(barselection);
-        svg.select(".bar_" + d).style("fill", "#315b7d").style("opacity",1);
+        svg.select(".bar_" + d).style("fill", "#315b7d").style("opacity", 1);
     };
-    unselect_bar = function(d){
+    unselect_bar = function (d) {
         barselection = "none";
         svg.select("#bar_" + d).style("fill", "steelblue");
     };
 }
 
-function init(){
+function init() {
     xLabel = "Day_of_Week";
     bartimeperiod = "total";
     barselection = "none";

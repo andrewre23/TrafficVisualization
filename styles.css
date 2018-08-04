@@ -53,11 +53,10 @@ html, body {
 
 }
 
-#categorydropdown{
+#categorydropdown {
     display: block;
     margin: 0 auto;
 }
-
 
 #bar1 {
     width: 32.5%;
@@ -76,9 +75,11 @@ html, body {
 .databox {
     border-style: wave;
 }
+
 .bar {
     fill: steelblue;
 }
+
 .bar1 {
     fill: steelblue;
 }
@@ -87,13 +88,13 @@ html, body {
     font: 10px sans-serif;
 }
 
-h2{
+h2 {
     font-size: 40px;
     margin-top: 15px;
     margin-bottom: 10px;
 }
 
-h3{
+h3 {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
