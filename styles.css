@@ -4,6 +4,7 @@ html, body {
     width: 1900px;
     height: 950px;
     background: lightcyan;
+    font-family: Calibri;
 }
 
 #titlebar {
