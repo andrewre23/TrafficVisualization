@@ -4,7 +4,7 @@ html, body {
     width: 1900px;
     height: 950px;
     background: lightcyan;
-    font-family: Calibri;
+    font-family: Calibri, serif;
 }
 
 #titlebar {
@@ -31,6 +31,10 @@ html, body {
     float: left;
 }
 
+#mapdiv {
+
+}
+
 #summary {
     width: 25%;
     height: 45%;
@@ -38,11 +42,19 @@ html, body {
     float: left;
 }
 
+#summarydiv {
+
+}
+
 #linegraph {
     width: 40%;
     height: 45%;
     background: lightblue;
     float: right;
+}
+
+#linegraphdiv {
+
 }
 
 #middlebar {
