@@ -148,6 +148,10 @@ function line_plot() {
                 }
             });
 
+        if(lineselection != "total")
+            svg.select("#linebubble_" + lineselection).style("fill", "#315b7d").style("opacity", 1)
+                .style("stroke","black").style("stroke-width","2px");
+
     });
 
     select_line = function (d) {
