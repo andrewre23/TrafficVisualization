@@ -26,13 +26,9 @@ function line_plot() {
         linefile = "roadsurfaceline.csv";
     console.log(linefile);
 
-    var svgWidth = 600, svgHeight = 300;
-    var margin = { top: 20, right: 20, bottom: 30, left: 50 };
-    var width = svgWidth - margin.left - margin.right;
-    var height = svgHeight - margin.top - margin.bottom;
-    var svg = d3.select('#linegraphdiv').append(svg)
-        .attr("width", svgWidth)
-        .attr("height", svgHeight);
+    var margin = {top: 20, right: 20, bottom: 30, left: 50},
+        width = 760 - margin.left - margin.right,
+        height = 370 - margin.top - margin.bottom;
 
     // Parse the date / time
     var parseDate = d3.timeParse("%H");
@@ -43,26 +39,48 @@ function line_plot() {
 
     // define the line
     var valueline = d3.line()
-        .x(function(d) { return x(d.Hour); })
-        .y(function(d) { return y(d.close); });
-
-    // Get the data
-    d3.csv(linefile, function(error, data) {
-        console.log(data);
-        console.log(data.columns);
-        data.forEach(function(d) {
-            d.hour = parseDate(d.Hour);
+        .x(function (d) {
+            return x(d.Hour);
+        })
+        .y(function (d) {
+            return y(d.Total);
         });
 
+    // append the svg obgect to the body of the page
+    // appends a 'group' element to 'svg'
+    // moves the 'group' element to the top left margin
+    var svg = d3.select("#linegraphdiv").append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform",
+            "translate(" + margin.left + "," + margin.top + ")");
+
+    // Get the data
+    d3.csv(linefile, function (error, data) {
+        console.log(data);
+        console.log(data.columns[0]);
+        data.forEach(function (d) {
+            d.Hour = +d.Hour;
+            d.Total = +d.Total;
+        });
+
+        console.log(data.barselection);
 
         // Scale the range of the data
-        x.domain(d3.extent(data, function(d) { return d.hour; }));
-        y.domain([0, d3.max(data, function(d) { return d.close; })]);
+        x.domain(d3.extent(data, function (d) {
+            return d.Hour;
+        }));
+        y.domain([0, d3.max(data, function (d) {
+            return d.Total;
+        })]);
 
         // Add the valueline path.
         svg.append("path")
             .data([data])
             .attr("class", "line")
+            .attr('fill','#044B94')
+            .attr('fill-opacity','0.3')
             .attr("d", valueline);
 
         // Add the X Axis
@@ -73,17 +91,12 @@ function line_plot() {
         // Add the Y Axis
         svg.append("g")
             .call(d3.axisLeft(y));
-
     });
-
-
-
-
 
 
 };
 
 
 function line_init() {
-        line_plot();
-    };
+    line_plot();
+};
