@@ -13,17 +13,17 @@
 
 function line_plot() {
     if (xLabel === "Day_of_Week")
-        linefile = "dayline.csv";
+        linefile = "linefiles/dayline.csv";
     else if (xLabel === "Road_Type")
-        linefile = "roadtypeline.csv";
+        linefile = "linefiles/roadtypeline.csv";
     else if (xLabel === "Speed_limit")
-        linefile = "speedline.csv";
+        linefile = "linefiles/speedline.csv";
     else if (xLabel === "Light_Conditions")
-        linefile = "lightline.csv";
+        linefile = "linefiles/lightline.csv";
     else if (xLabel === "Weather_Conditions")
-        linefile = "weatherline.csv";
+        linefile = "linefiles/weatherline.csv";
     else if (xLabel === "Road_Surface_Conditions")
-        linefile = "roadsurfaceline.csv";
+        linefile = "linefiles/roadsurfaceline.csv";
     console.log(linefile);
 
     var margin = {top: 20, right: 20, bottom: 30, left: 50},
@@ -79,12 +79,12 @@ function line_plot() {
         svg.append("path")
             .data([data])
             .attr("class", "line")
-            .attr('fill','none')
+            .attr('fill', 'none')
             .attr("stroke", "steelblue")
             .attr("stroke-linejoin", "round")
             .attr("stroke-linecap", "round")
             .attr("stroke-width", 1.5)
-            .attr('fill-opacity','0.3')
+            .attr('fill-opacity', '0.3')
             .attr("d", valueline);
 
         // Add the X Axis

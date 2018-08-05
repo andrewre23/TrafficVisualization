@@ -1,17 +1,17 @@
 function bar_total() {
 
-    if (xLabel == "Day_of_Week")
-        countfile = "daycount.csv";
-    else if (xLabel == "Road_Type")
-        countfile = "roadtypecount.csv";
-    else if (xLabel == "Speed_limit")
-        countfile = "speedcount.csv";
-    else if (xLabel == "Light_Conditions")
-        countfile = "lightcount.csv";
-    else if (xLabel == "Weather_Conditions")
-        countfile = "weathercount.csv";
-    else if (xLabel == "Road_Surface_Conditions")
-        countfile = "roadsurfacecount.csv";
+    if (xLabel === "Day_of_Week")
+        countfile = "barfiles/daycount.csv";
+    else if (xLabel === "Road_Type")
+        countfile = "barfiles/roadtypecount.csv";
+    else if (xLabel === "Speed_limit")
+        countfile = "barfiles/speedcount.csv";
+    else if (xLabel === "Light_Conditions")
+        countfile = "barfiles/lightcount.csv";
+    else if (xLabel === "Weather_Conditions")
+        countfile = "barfiles/weathercount.csv";
+    else if (xLabel === "Road_Surface_Conditions")
+        countfile = "barfiles/roadsurfacecount.csv";
     console.log(countfile);
 
 // set the dimensions and margins of the graph
@@ -164,18 +164,18 @@ function updatebartotal(elem) {
 
 function bar_avg() {
 
-    if (xLabel == "Day_of_Week")
-        avgfile = "daypercent.csv";
-    else if (xLabel == "Road_Type")
-        avgfile = "roadtypepercent.csv";
-    else if (xLabel == "Speed_limit")
-        avgfile = "speedpercent.csv";
-    else if (xLabel == "Light_Conditions")
-        avgfile = "lightpercent.csv";
-    else if (xLabel == "Weather_Conditions")
-        avgfile = "weatherpercent.csv";
-    else if (xLabel == "Road_Surface_Conditions")
-        avgfile = "roadsurfacepercent.csv";
+    if (xLabel === "Day_of_Week")
+        avgfile = "barfiles/daypercent.csv";
+    else if (xLabel === "Road_Type")
+        avgfile = "barfiles/roadtypepercent.csv";
+    else if (xLabel === "Speed_limit")
+        avgfile = "barfiles/speedpercent.csv";
+    else if (xLabel === "Light_Conditions")
+        avgfile = "barfiles/lightpercent.csv";
+    else if (xLabel === "Weather_Conditions")
+        avgfile = "barfiles/weatherpercent.csv";
+    else if (xLabel === "Road_Surface_Conditions")
+        avgfile = "barfiles/roadsurfacepercent.csv";
     console.log(avgfile);
 
 // set the dimensions and margins of the graph
