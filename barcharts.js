@@ -1,16 +1,16 @@
 function bar_total() {
 
-    if (xLabel === "Day_of_Week")
+    if (xLabel == "Day_of_Week")
         countfile = "daycount.csv";
-    else if (xLabel === "Road_Type")
+    else if (xLabel == "Road_Type")
         countfile = "roadtypecount.csv";
-    else if (xLabel === "Speed_limit")
+    else if (xLabel == "Speed_limit")
         countfile = "speedcount.csv";
-    else if (xLabel === "Light_Conditions")
+    else if (xLabel == "Light_Conditions")
         countfile = "lightcount.csv";
-    else if (xLabel === "Weather_Conditions")
+    else if (xLabel == "Weather_Conditions")
         countfile = "weathercount.csv";
-    else if (xLabel === "Road_Surface_Conditions")
+    else if (xLabel == "Road_Surface_Conditions")
         countfile = "roadsurfacecount.csv";
     console.log(countfile);
 
@@ -148,7 +148,7 @@ function bar_total() {
         svg.select(".bar1_" + d).style("fill", "#315b7d").style("opacity", 1);
     };
     unselect_bar1 = function (d) {
-        barselection = "none";
+        barselection = "Total";
         svg.select("#bar1_" + d).style("fill", "steelblue");
     };
 }
@@ -158,25 +158,23 @@ function updatebartotal(elem) {
     xLabel = elem;
     d3.select('#bar_totalaccidents').selectAll("*").remove();
     d3.select('#bar_avgcasualties').selectAll("*").remove();
-    d3.select('#linegraphdiv').selectAll("*").remove();
     bar_total();
     bar_avg();
-    line_plot();
 }
 
 function bar_avg() {
 
-    if (xLabel === "Day_of_Week")
+    if (xLabel == "Day_of_Week")
         avgfile = "daypercent.csv";
-    else if (xLabel === "Road_Type")
+    else if (xLabel == "Road_Type")
         avgfile = "roadtypepercent.csv";
-    else if (xLabel === "Speed_limit")
+    else if (xLabel == "Speed_limit")
         avgfile = "speedpercent.csv";
-    else if (xLabel === "Light_Conditions")
+    else if (xLabel == "Light_Conditions")
         avgfile = "lightpercent.csv";
-    else if (xLabel === "Weather_Conditions")
+    else if (xLabel == "Weather_Conditions")
         avgfile = "weatherpercent.csv";
-    else if (xLabel === "Road_Surface_Conditions")
+    else if (xLabel == "Road_Surface_Conditions")
         avgfile = "roadsurfacepercent.csv";
     console.log(avgfile);
 
@@ -253,7 +251,7 @@ function bar_avg() {
                 unhighlight_bar1(d[xLabel]);
             })
             .on("click", function (d) {
-                if (barselection === d[xLabel]) {
+                if (barselection == d[xLabel]) {
                     unselect_bar1(d[xLabel]);
                     unselect_bar(d[xLabel]);
                 }
@@ -312,11 +310,15 @@ function bar_avg() {
     select_bar = function (d) {
         barselection = d;
         console.log(barselection);
+        d3.select('#linegraphdiv').selectAll("*").remove();
+        line_plot();
         svg.selectAll(".bar").style("fill", "steelblue");
         svg.select(".bar_" + d).style("fill", "#315b7d").style("opacity", 1);
     };
     unselect_bar = function (d) {
-        barselection = "none";
+        barselection = "Total";
+        d3.select('#linegraphdiv').selectAll("*").remove();
+        line_plot();
         svg.select("#bar_" + d).style("fill", "steelblue");
     };
 }
@@ -324,7 +326,7 @@ function bar_avg() {
 function bar_init() {
     xLabel = "Day_of_Week";
     bartimeperiod = "total";
-    barselection = "none";
+    barselection = "Total";
     bar_total();
     bar_avg();
 }

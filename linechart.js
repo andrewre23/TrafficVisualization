@@ -31,7 +31,7 @@ function line_plot() {
         height = 370 - margin.top - margin.bottom;
 
     // Parse the date / time
-    var parseDate = d3.timeParse("%H");
+    var parseTime = d3.timeParse("%H");
 
     // set the ranges
     var x = d3.scaleTime().range([0, width]);
@@ -43,7 +43,7 @@ function line_plot() {
             return x(d.Hour);
         })
         .y(function (d) {
-            return y(d.Total);
+            return y(d[barselection]);
         });
 
     // append the svg obgect to the body of the page
@@ -61,8 +61,8 @@ function line_plot() {
         console.log(data);
         console.log(data.columns[0]);
         data.forEach(function (d) {
-            d.Hour = +d.Hour;
-            d.Total = +d.Total;
+            d.Hour = parseTime(d.Hour);
+            d[barselection] = +d[barselection];
         });
 
         console.log(data.barselection);
@@ -72,14 +72,18 @@ function line_plot() {
             return d.Hour;
         }));
         y.domain([0, d3.max(data, function (d) {
-            return d.Total;
+            return d[barselection];
         })]);
 
         // Add the valueline path.
         svg.append("path")
             .data([data])
             .attr("class", "line")
-            .attr('fill','#044B94')
+            .attr('fill','none')
+            .attr("stroke", "steelblue")
+            .attr("stroke-linejoin", "round")
+            .attr("stroke-linecap", "round")
+            .attr("stroke-width", 1.5)
             .attr('fill-opacity','0.3')
             .attr("d", valueline);
 
