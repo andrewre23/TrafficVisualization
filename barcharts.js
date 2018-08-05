@@ -144,6 +144,7 @@ function bar_total() {
     select_bar1 = function (d) {
         barselection = d;
         console.log(barselection);
+        svg.selectAll(".bar1").style("fill", "steelblue");
         svg.select(".bar1_" + d).style("fill", "#315b7d").style("opacity", 1);
     };
     unselect_bar1 = function (d) {
@@ -309,6 +310,7 @@ function bar_avg() {
     select_bar = function (d) {
         barselection = d;
         console.log(barselection);
+        svg.selectAll(".bar").style("fill", "steelblue");
         svg.select(".bar_" + d).style("fill", "#315b7d").style("opacity", 1);
     };
     unselect_bar = function (d) {
