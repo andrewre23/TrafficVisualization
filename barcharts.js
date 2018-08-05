@@ -326,6 +326,7 @@ function bar_avg() {
 function bar_init() {
     xLabel = "Day_of_Week";
     bartimeperiod = "total";
+    lineselection = "total";
     barselection = "Total";
     bar_total();
     bar_avg();

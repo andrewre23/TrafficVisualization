@@ -26,7 +26,7 @@ function line_plot() {
         linefile = "linefiles/roadsurfaceline.csv";
     console.log(linefile);
 
-    var margin = {top: 20, right: 20, bottom: 30, left: 50},
+    var margin = {top: 20, right: 25, bottom: 50, left: 60},
         width = 760 - margin.left - margin.right,
         height = 370 - margin.top - margin.bottom;
 
@@ -34,7 +34,7 @@ function line_plot() {
     var parseTime = d3.timeParse("%H");
 
     // set the ranges
-    var x = d3.scaleTime().range([0, width]);
+    var x = d3.scaleLinear().range([0, width]);
     var y = d3.scaleLinear().range([height, 0]);
 
     // define the line
@@ -61,7 +61,8 @@ function line_plot() {
         console.log(data);
         console.log(data.columns[0]);
         data.forEach(function (d) {
-            d.Hour = parseTime(d.Hour);
+            //d.Hour = parseTime(d.Hour);
+            d.Hour = +d.Hour;
             d[barselection] = +d[barselection];
         });
 
@@ -90,15 +91,94 @@ function line_plot() {
         // Add the X Axis
         svg.append("g")
             .attr("transform", "translate(0," + height + ")")
-            .call(d3.axisBottom(x));
+            .call(d3.axisBottom(x).tickValues(d3.range(0,24,1)));
 
         // Add the Y Axis
         svg.append("g")
             .call(d3.axisLeft(y));
+
+        // text label for the y axis
+        svg.append("text")
+            .attr("transform", "rotate(-90)")
+            .attr("y", 0 - margin.left)
+            .attr("x",0 - (height / 2))
+            .attr("dy", "1em")
+            .style("text-anchor", "middle")
+            .style("font-weight","bold")
+            .style("font-size","14pt")
+            .text("Accident Count");
+
+        // text label for the x axis
+        svg.append("text")
+            .attr("transform",
+                "translate(" + (width/2) + " ," +
+                (height + margin.top + 20) + ")")
+            .style("text-anchor", "middle")
+            .style("font-weight","bold")
+            .style("font-size","14pt")
+            .text("Hour of Day");
+
+        var bubble = svg.selectAll('.linebubble')
+            .data(data)
+            .enter().append('circle')
+            .attr("class", "linebubble")
+            .attr('id', function(d){
+                return 'linebubble_' + d.Hour;
+            })
+            .attr("cx", function(d) { return x(d.Hour); })
+            .attr("cy", function(d) { return y(d[barselection]); })
+            // .attr('r', function(d){ return radius(d.PetalLength); })
+            .attr('r', 5)
+            .style('fill', "steelblue")
+            .on("mouseover", function(d){
+                svg.selectAll(".linebubble").style("opacity", 0);
+                d3.select(this)
+                    //.style("stroke","black").style("stroke-width","2px")
+                    .style("opacity", 1);
+            })
+            .on("mouseleave", function(d){
+                svg.selectAll(".linebubble").style("opacity", 1);
+                //d3.select(this).style("stroke","black").style("stroke-width","0px");
+            })
+            .on("click", function (d) {
+                if (lineselection == d.Hour) {
+                    unselect_line(d.Hour);
+                }
+                else {
+                    select_line(d.Hour);
+                    d3.event.stopPropagation();
+                }
+            });
+
     });
 
-
-};
+    select_line = function (d) {
+        lineselection = d;
+        console.log(lineselection);
+        svg.selectAll(".linebubble").style("fill", "steelblue").style("stroke","black").style("stroke-width","0px");
+        svg.select("#linebubble_" + d).style("fill", "#315b7d").style("stroke","black").style("stroke-width","2px");
+        if(lineselection < 10)
+            bartimeperiod = "H0" + d;
+        else if(lineselection >= 10)
+            bartimeperiod = "H"+d;
+        console.log(bartimeperiod);
+        d3.select('#bar_totalaccidents').selectAll("*").remove();
+        d3.select('#bar_avgcasualties').selectAll("*").remove();
+        bar_total();
+        bar_avg();
+    };
+    unselect_line = function (d) {
+        lineselection = "total";
+        //d3.select('#linegraphdiv').selectAll("*").remove();
+        //line_plot();
+        bartimeperiod = "total";
+        d3.select('#bar_totalaccidents').selectAll("*").remove();
+        d3.select('#bar_avgcasualties').selectAll("*").remove();
+        bar_total();
+        bar_avg();
+        svg.select(".linebubble_" + d).style("fill", "steelblue").style("stroke","black").style("stroke-width","0px");
+    };
+}
 
 
 function line_init() {
