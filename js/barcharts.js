@@ -129,6 +129,9 @@ function bar_total() {
         svg.append("g")
             .call(d3.axisLeft(y));
 
+        if(barselection != "Total")
+            svg.select(".bar1_" + barselection).style("fill", "#315b7d").style("opacity", 1);
+
     });
 
     highlight_bar1 = function (d) {
@@ -294,6 +297,9 @@ function bar_avg() {
         // add the y Axis
         svg.append("g")
             .call(d3.axisLeft(y));
+
+        if(barselection != "Total")
+            svg.select(".bar_" + barselection).style("fill", "#315b7d").style("opacity", 1);
 
     });
 
