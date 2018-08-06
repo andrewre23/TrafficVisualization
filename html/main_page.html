@@ -34,7 +34,7 @@
     </div>
 
     <div id="middlebar" class="databox">
-        <div id="dropdownboxarea">
+        <div id="dropdownboxarealeft">
             <h3>Select Attribute from Dataset</h3>
             <select id="categorydropdown" onchange="updatebartotal(this.value);">
                 <option value="Day_of_Week" selected>Day of the Week</option>
@@ -43,6 +43,13 @@
                 <option value="Light_Conditions">Light Conditions</option>
                 <option value="Weather_Conditions">Weather Conditions</option>
                 <option value="Road_Surface_Conditions">Road Surface Conditions</option>
+            </select>
+        </div>
+        <div id="dropdownboxarearight">
+            <h3>Select Time Interval</h3>
+            <select id="timedropdown" onchange="updateline(this.value);">
+                <option value="Hourly" selected>Hourly</option>
+                <option value="Monthly">Monthly</option>
             </select>
         </div>
         <div id="titleforbar1">
