@@ -336,5 +336,6 @@ function bar_init() {
     barselection = "Total";
     bar_total();
     bar_avg();
+    mapdraw();
 }
 
