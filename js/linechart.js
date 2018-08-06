@@ -1,16 +1,3 @@
-/*function parseData(data) {
-    var arr = [];
-    for (var i in data.bpi) {
-        arr.push(
-            {
-                date: new Date(i), //date
-                value: +data.bpi[i] //convert string to number
-            });
-    }
-    return arr;
-}*/
-
-
 function line_plot() {
     if (xLabel === "Day_of_Week")
         linefile = "../data/linefiles/dayline.csv";
