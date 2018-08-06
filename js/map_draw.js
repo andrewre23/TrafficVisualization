@@ -79,44 +79,39 @@ function mapdraw() {
 
     var geoPath = d3.geoPath()
         .projection(albersProjection);
+    if(timeinterval == "Hour")
+        jqueryfile ="../data/mapfiles/hourly/hour" + lineselection + ".json";
+    else if (timeinterval == "Month")
+        jqueryfile ="../data/mapfiles/monthly/monthly" + lineselection + ".json";
 
-    /*
-    uk.selectAll("path")
-        .data(uk_json.features)
-        .enter()
-        .append("path")
-        .attr("fill", "#ccc")
-        .attr("d", geoPath);
-        console.log('country ' + uk_json.type);
-*/
+    if(lineselection != "total") {
+        //Use JQuery to read local JSON file
+        var hour1json = (function () {
+            var json = null;
+            $.ajax({
+                'async': false,
+                'global': false,
+                // URL to local file. To be parameterized for generalization
+                'url': jqueryfile,
+                'dataType': "json",
+                'success': function (data) {
+                    json = data;
+                }
+            });
+            return json;
+        })();
 
+        console.log('test');
+        console.log(hour1json);
 
-    //Use JQuery to read local JSON file
-    var hour1json = (function () {
-        var json = null;
-        $.ajax({
-            'async': false,
-            'global': false,
-            // URL to local file. To be parameterized for generalization
-            'url': "../data/mapfiles/hourly/hour1.json",
-            'dataType': "json",
-            'success': function (data) {
-                json = data;
-            }
-        });
-        return json;
-    })();
-
-    console.log('test');
-    console.log(hour1json);
-
-    var accidents = svg.append("g");
-    accidents.selectAll("path")
-        .data(hour1json.features)
-        .enter()
-        .append("path")
-        .attr("fill", "#900")
-        .attr("stroke", "#999")
-        .attr("d", geoPath);
+        var accidents = svg.append("g");
+        accidents.selectAll("path")
+            .data(hour1json.features)
+            .enter()
+            .append("path")
+            .attr("fill", "#900")
+            .attr("stroke", "#999")
+            .attr("d", geoPath);
+    }
 
 }

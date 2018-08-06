@@ -193,6 +193,8 @@ function line_plot() {
         d3.select('#bar_avgcasualties').selectAll("*").remove();
         bar_total();
         bar_avg();
+        d3.select('#mapdiv').selectAll("*").remove();
+        mapdraw();
     };
     unselect_line = function (d) {
         lineselection = "total";
@@ -204,6 +206,8 @@ function line_plot() {
         bar_total();
         bar_avg();
         svg.select("#linebubble_" + d).style("fill", "steelblue").style("stroke", "black").style("stroke-width", "0px");
+        d3.select('#mapdiv').selectAll("*").remove();
+        mapdraw();
     };
 }
 
