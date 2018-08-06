@@ -178,7 +178,7 @@ function line_plot() {
         d3.select('#bar_avgcasualties').selectAll("*").remove();
         bar_total();
         bar_avg();
-        svg.select(".linebubble_" + d).style("fill", "steelblue").style("stroke","black").style("stroke-width","0px");
+        svg.select("#linebubble_" + d).style("fill", "steelblue").style("stroke","black").style("stroke-width","0px");
     };
 }
 
