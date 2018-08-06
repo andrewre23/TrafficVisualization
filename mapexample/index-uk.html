@@ -38,6 +38,7 @@
     var geoPath = d3.geoPath()
         .projection(albersProjection);
 
+    /*
     g.selectAll("path")
         .data(uk_json.features)
         .enter()
@@ -46,7 +47,7 @@
         .attr("d", geoPath);
     console.log('neighbors ' + neighborhoods_json.type);
     console.log('country ' + uk_json.type);
-
+*/
 
     //Use JQuery to read local JSON file
     var hour1json = (function () {
@@ -67,6 +68,8 @@
     console.log('test');
     console.log(hour1json);
 
+    /*
+
     //Section to add accidents. However, currently has side effect of cutting off large portion of UK map and not reloading
     g.selectAll("path")
         .data(hour1json.features)
@@ -75,6 +78,7 @@
         .attr("fill", "#ccc")
         .attr("d", geoPath);
 
+*/
     //This code block is the one causing the map to be cut
     var accidents = svg.append("g");
     accidents.selectAll("path")

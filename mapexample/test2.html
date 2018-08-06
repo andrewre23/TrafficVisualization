@@ -1,0 +1,129 @@
+<html>
+<head>
+    <title>UK D3 map</title>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="../js/uk_map.js"></script>
+    <script src="../js/map_draw.js"></script>
+    <script src="hour1.js"></script>
+    <!--Added JQuery import-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <style>
+        svg {
+            border-color: black;
+            border-style: solid;
+        }
+
+
+    </style>
+
+</head>
+<body>
+<div id="mapdiv"></div>
+<script>
+
+
+    //Plot map
+    var width = 592,
+        height = 735;
+
+    var svg = d3.select("#mapdiv")
+        .append("svg")
+        .attr("width", width)
+        .attr("height", height);
+
+    svg.append("image")
+        .attr("xlink:href", "ukbackground.png");
+
+
+    var uk = svg.append("g");
+
+    var albersProjection = d3.geoAlbers()
+        .scale(4050)
+        .rotate([0, 0])
+        .center([-3, 55.3])
+        .translate([width / 2, height / 2]);
+
+    var geoPath = d3.geoPath()
+        .projection(albersProjection);
+
+/*
+    uk.selectAll("path")
+        .data(uk_json.features)
+        .enter()
+        .append("path")
+        .attr("fill", "#ccc")
+        .attr("d", geoPath);
+        console.log('country ' + uk_json.type);
+*/
+
+
+    //Use JQuery to read local JSON file
+    var hour1json = (function () {
+        var json = null;
+        $.ajax({
+            'async': false,
+            'global': false,
+            // URL to local file. To be parameterized for generalization
+            'url': "./April.json",
+            'dataType': "json",
+            'success': function (data) {
+                json = data;
+            }
+        });
+        return json;
+    })();
+
+    console.log('test');
+    console.log(hour1json);
+
+    var accidents = svg.append("g");
+    accidents.selectAll("path")
+        .data(hour1json.features)
+        .enter()
+        .append("path")
+        .attr("fill", "#900")
+        .attr("stroke", "#999")
+        .attr("d", geoPath);
+
+/*
+    //Section to add accidents. However, currently has side effect of cutting off large portion of UK map and not reloading
+    uk.selectAll("path")
+        .data(hour1json.features)
+        .enter()
+        .append("path")
+        .attr("fill", "#ccc")
+        .attr("d", geoPath);
+*/
+    //This code block is the one causing the map to be cut
+
+/*
+    var width = 658,
+        height = 817;
+
+    var albersProjection = d3.geoAlbers()
+        .scale(4500)
+        .rotate([0, 0])
+        .center([-3, 55.3])
+        .translate([width / 2, height / 2]);
+
+    var geoPath = d3.geoPath()
+        .projection(albersProjection);
+
+    var svg = d3.select("#mapdiv")
+        .append("svg")
+        .attr("width", width)
+        .attr("height", height);
+
+       var accidents = svg.append("g");
+    accidents.selectAll("path")
+        .data(hour1.features)
+        .enter()
+        .append("path")
+        .attr("fill", "#900")
+        .attr("stroke", "#999")
+        .attr("d", geoPath);
+*/
+
+</script>
+</body>
+</html>

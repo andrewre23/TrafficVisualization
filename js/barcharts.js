@@ -337,6 +337,5 @@ function bar_init() {
     timeinterval = "Hour";
     bar_total();
     bar_avg();
-    mapdraw();
 }
 

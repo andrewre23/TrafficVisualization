@@ -32,7 +32,8 @@ html, body {
 }
 
 #mapdiv {
-
+    width: 658;
+    height:817;
 }
 
 #mapdiv svg {
