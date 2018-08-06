@@ -2,17 +2,17 @@ function line_plot() {
 
     if (timeinterval === "Hour") {
         if (xLabel === "Day_of_Week")
-            linefile = "../data/linefiles/dayline.csv";
+            linefile = "../data/linefiles/hourly/dayline.csv";
         else if (xLabel === "Road_Type")
-            linefile = "../data/linefiles/roadtypeline.csv";
+            linefile = "../data/linefiles/hourly/roadtypeline.csv";
         else if (xLabel === "Speed_limit")
-            linefile = "../data/linefiles/speedline.csv";
+            linefile = "../data/linefiles/hourly/speedline.csv";
         else if (xLabel === "Light_Conditions")
-            linefile = "../data/linefiles/lightline.csv";
+            linefile = "../data/linefiles/hourly/lightline.csv";
         else if (xLabel === "Weather_Conditions")
-            linefile = "../data/linefiles/weatherline.csv";
+            linefile = "../data/linefiles/hourly/weatherline.csv";
         else if (xLabel === "Road_Surface_Conditions")
-            linefile = "../data/linefiles/roadsurfaceline.csv";
+            linefile = "../data/linefiles/hourly/roadsurfaceline.csv";
         console.log('Linefile: ' + linefile);
     }
     else if (timeinterval === "Month") {
@@ -92,12 +92,12 @@ function line_plot() {
             .attr("d", valueline);
 
         // Add the X Axis
-        if (timeinterval == "Hour") {
+        if (timeinterval === "Hour") {
             svg.append("g")
                 .attr("transform", "translate(0," + height + ")")
                 .call(d3.axisBottom(x).tickValues(d3.range(0, 24, 1)));
         }
-        else if (timeinterval == "Month") {
+        else if (timeinterval === "Month") {
             svg.append("g")
                 .attr("transform", "translate(0," + height + ")")
                 .call(d3.axisBottom(x).tickValues(d3.range(1, 13, 1)));
