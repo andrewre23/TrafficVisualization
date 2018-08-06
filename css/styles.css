@@ -27,12 +27,18 @@ html, body {
 #map {
     width: 35%;
     height: 100%;
-    background: lightcoral;
+    background: none;
     float: left;
 }
 
 #mapdiv {
 
+}
+
+#mapdiv svg{
+    border-color: black;
+    border-style: solid;
+    background: white;
 }
 
 #summary {
