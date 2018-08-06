@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="//d3js.org/d3.v4.min.js"></script>
+    <script src="../js/barcharts.js"></script>
+    <script src="../js/linechart.js"></script>
+
+    <link href="../css/styles.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+<div id="titlebar">
+    <h2>Visual Dashboard for UK Traffic Accidents</h2>
+    <h3>Dataset ranging from January 1st, 2013 to December 31st, 2013</h3>
+</div>
+
+<div id="plots">
+
+    <div id="map" class="databox">
+        map
+        <div id="mapdiv"></div>
+    </div>
+
+    <div id="summary" class="databox">
+        summary
+        <div id="summarydiv"></div>
+    </div>
+
+    <div id="linegraph" class="databox">
+        <div id="linegraphdiv"></div>
+    </div>
+
+    <div id="middlebar" class="databox">
+        <div id="dropdownboxarea">
+            <h3>Select Attribute from Dataset</h3>
+            <select id="categorydropdown" onchange="updatebartotal(this.value);">
+                <option value="Day_of_Week" selected>Day of the Week</option>
+                <option value="Road_Type">Road Type</option>
+                <option value="Speed_limit">Speed Limit</option>
+                <option value="Light_Conditions">Light Conditions</option>
+                <option value="Weather_Conditions">Weather Conditions</option>
+                <option value="Road_Surface_Conditions">Road Surface Conditions</option>
+            </select>
+        </div>
+        <div id="titleforbar1">
+            <h4>Accident Count by Attribute Value</h4>
+        </div>
+        <div id="titleforbar2">
+            <h4>Percentage Involving Multiple Casualties by Attribute Value</h4>
+        </div>
+    </div>
+
+
+    <div id="bar1">
+        <div id="bar_totalaccidents"></div>
+    </div>
+
+    <div id="bar2" class="databox">
+        <div id="bar_avgcasualties"></div>
+    </div>
+</div>
+
+<script>
+    bar_init();
+    line_init();
+</script>
+
+</body>
+</html>
