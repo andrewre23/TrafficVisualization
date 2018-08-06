@@ -87,7 +87,7 @@ function bar_total() {
                 unhighlight_bar(d[xLabel]);
             })
             .on("click", function (d) {
-                if (barselection == d[xLabel]) {
+                if (barselection === d[xLabel]) {
                     unselect_bar1(d[xLabel]);
                     unselect_bar(d[xLabel]);
                 }
@@ -129,7 +129,7 @@ function bar_total() {
         svg.append("g")
             .call(d3.axisLeft(y));
 
-        if(barselection != "Total")
+        if (barselection !== "Total")
             svg.select(".bar1_" + barselection).style("fill", "#315b7d").style("opacity", 1);
 
     });
@@ -298,7 +298,7 @@ function bar_avg() {
         svg.append("g")
             .call(d3.axisLeft(y));
 
-        if(barselection != "Total")
+        if (barselection !== "Total")
             svg.select(".bar_" + barselection).style("fill", "#315b7d").style("opacity", 1);
 
     });

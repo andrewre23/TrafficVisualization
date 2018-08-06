@@ -1,6 +1,6 @@
 function line_plot() {
 
-    if (timeinterval == "Hour") {
+    if (timeinterval === "Hour") {
         if (xLabel === "Day_of_Week")
             linefile = "../data/linefiles/dayline.csv";
         else if (xLabel === "Road_Type")
@@ -15,7 +15,7 @@ function line_plot() {
             linefile = "../data/linefiles/roadsurfaceline.csv";
         console.log('Linefile: ' + linefile);
     }
-    else if (timeinterval == "Month"){
+    else if (timeinterval === "Month") {
         if (xLabel === "Day_of_Week")
             linefile = "../data/linefiles/monthly/daylinehour.csv";
         else if (xLabel === "Road_Type")
@@ -97,7 +97,7 @@ function line_plot() {
                 .attr("transform", "translate(0," + height + ")")
                 .call(d3.axisBottom(x).tickValues(d3.range(0, 24, 1)));
         }
-        else if (timeinterval == "Month"){
+        else if (timeinterval == "Month") {
             svg.append("g")
                 .attr("transform", "translate(0," + height + ")")
                 .call(d3.axisBottom(x).tickValues(d3.range(1, 13, 1)));
@@ -111,47 +111,51 @@ function line_plot() {
         svg.append("text")
             .attr("transform", "rotate(-90)")
             .attr("y", 0 - margin.left)
-            .attr("x",0 - (height / 2))
+            .attr("x", 0 - (height / 2))
             .attr("dy", "1em")
             .style("text-anchor", "middle")
-            .style("font-weight","bold")
-            .style("font-size","14pt")
+            .style("font-weight", "bold")
+            .style("font-size", "14pt")
             .text("Accident Count");
 
         // text label for the x axis
         svg.append("text")
             .attr("transform",
-                "translate(" + (width/2) + " ," +
+                "translate(" + (width / 2) + " ," +
                 (height + margin.top + 20) + ")")
             .style("text-anchor", "middle")
-            .style("font-weight","bold")
-            .style("font-size","14pt")
+            .style("font-weight", "bold")
+            .style("font-size", "14pt")
             .text("Hour of Day");
 
         var bubble = svg.selectAll('.linebubble')
             .data(data)
             .enter().append('circle')
             .attr("class", "linebubble")
-            .attr('id', function(d){
+            .attr('id', function (d) {
                 return 'linebubble_' + d[timeinterval];
             })
-            .attr("cx", function(d) { return x(d[timeinterval]); })
-            .attr("cy", function(d) { return y(d[barselection]); })
+            .attr("cx", function (d) {
+                return x(d[timeinterval]);
+            })
+            .attr("cy", function (d) {
+                return y(d[barselection]);
+            })
             // .attr('r', function(d){ return radius(d.PetalLength); })
             .attr('r', 5)
             .style('fill', "steelblue")
-            .on("mouseover", function(d){
+            .on("mouseover", function (d) {
                 svg.selectAll(".linebubble").style("opacity", 0);
                 d3.select(this)
-                    //.style("stroke","black").style("stroke-width","2px")
+                //.style("stroke","black").style("stroke-width","2px")
                     .style("opacity", 1);
             })
-            .on("mouseleave", function(d){
+            .on("mouseleave", function (d) {
                 svg.selectAll(".linebubble").style("opacity", 1);
                 //d3.select(this).style("stroke","black").style("stroke-width","0px");
             })
             .on("click", function (d) {
-                if (lineselection == d[timeinterval]) {
+                if (lineselection === d[timeinterval]) {
                     unselect_line(d[timeinterval]);
                 }
                 else {
@@ -160,25 +164,25 @@ function line_plot() {
                 }
             });
 
-        if(lineselection != "total")
+        if (lineselection !== "total")
             svg.select("#linebubble_" + lineselection).style("fill", "#315b7d").style("opacity", 1)
-                .style("stroke","black").style("stroke-width","2px");
+                .style("stroke", "black").style("stroke-width", "2px");
 
     });
 
     select_line = function (d) {
         lineselection = d;
         console.log(lineselection);
-        svg.selectAll(".linebubble").style("fill", "steelblue").style("stroke","black").style("stroke-width","0px");
-        svg.select("#linebubble_" + d).style("fill", "#315b7d").style("stroke","black").style("stroke-width","2px");
-        if(timeinterval == "Hour") {
+        svg.selectAll(".linebubble").style("fill", "steelblue").style("stroke", "black").style("stroke-width", "0px");
+        svg.select("#linebubble_" + d).style("fill", "#315b7d").style("stroke", "black").style("stroke-width", "2px");
+        if (timeinterval === "Hour") {
             if (lineselection < 10)
                 bartimeperiod = "H0" + d;
             else if (lineselection >= 10)
                 bartimeperiod = "H" + d;
             console.log(bartimeperiod);
         }
-        else if(timeinterval == "Month"){
+        else if (timeinterval === "Month") {
             if (lineselection < 10)
                 bartimeperiod = "M0" + d;
             else if (lineselection >= 10)
@@ -199,7 +203,7 @@ function line_plot() {
         d3.select('#bar_avgcasualties').selectAll("*").remove();
         bar_total();
         bar_avg();
-        svg.select("#linebubble_" + d).style("fill", "steelblue").style("stroke","black").style("stroke-width","0px");
+        svg.select("#linebubble_" + d).style("fill", "steelblue").style("stroke", "black").style("stroke-width", "0px");
     };
 }
 
