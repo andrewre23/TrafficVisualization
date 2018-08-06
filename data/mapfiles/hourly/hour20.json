@@ -1,0 +1,7282 @@
+{
+	"type": "FeatureCollection",
+	"features": [{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.16518, 51.483476]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 5,
+				"Day_of_Week": 1,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Snow",
+				"Road_Surface_Conditions": "Snow"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.188209, 51.498403]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.177055, 51.48546]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Rain",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.107594, 51.517633]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.193586, 51.526363]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 2,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Other",
+				"Road_Surface_Conditions": "Ice"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.182084, 51.521959]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 1,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.141282, 51.511517]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights-Unlit",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.142914, 51.517478]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.122847, 51.518238]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.100416, 51.561941]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.105715, 51.531631]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.20695, 51.490777]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 7,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.07688, 51.538446]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 7,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Snow"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.061213, 51.567774]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 7,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Ice"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.06843, 51.516635]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 1,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Daylight",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.016944, 51.487448]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 2,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.05023, 51.52092]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.010494, 51.623132]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Rain-Wind",
+				"Road_Surface_Conditions": "Flood"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.01581, 51.576547]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.117647, 51.587974]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 4,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 40,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Rain",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.230282, 51.600365]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 1,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Snow",
+				"Road_Surface_Conditions": "Ice"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.007964, 51.533067]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 5,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 7,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Rain",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.005766, 51.542098]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 1,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.009583, 51.537086]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.130982, 51.56444]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 1,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.128527, 51.564395]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Ice"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.093615, 51.545689]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.111251, 51.488465]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.150469, 51.466159]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 1,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.052581, 51.496229]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Daylight",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.065696, 51.482507]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 7,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Rain",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.093072, 51.471894]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 5,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Rain",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.086329, 51.505687]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.020197, 51.46556]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 7,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Rain",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.041058, 51.465911]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.007721, 51.445571]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.017353, 51.389828]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.070302, 51.414327]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.037716, 51.388756]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.279943, 51.610392]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.365363, 51.560356]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 7,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Rain",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.312689, 51.59585]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.327843, 51.60389]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 3,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Rain",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.277316, 51.565301]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights-Unknown",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.303442, 51.537895]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.218369, 51.552551]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.301411, 51.534359]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 6,
+				"Number_of_Vehicles": 3,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.307907, 51.576897]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights-Unknown",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.245541, 51.536144]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 7,
+				"Road_Type": "One-Way",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Rain",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.278301, 51.539237]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 2,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.061836, 51.493553]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 4,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 2,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Other",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.029295, 51.487466]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 1,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.012501, 51.4561]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 7,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.105921, 51.424782]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.144846, 51.491074]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.090311, 51.438911]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 2,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.227156, 51.582539]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 3,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 1,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.232232, 51.570745]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 4,
+				"Road_Type": "Roundabout",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights-Unknown",
+				"Weather_Conditions": "Unknown",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.06865, 51.51484]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.06922, 51.56114]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 7,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.192889, 51.456569]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 7,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.426224, 51.498242]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.028901, 51.377126]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.259319, 51.469804]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 2,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.341377, 51.454268]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.265511, 51.492557]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.42478, 51.452361]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Rain-Wind",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.30482, 51.493042]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.347563, 51.482232]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.433124, 51.452473]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.289845, 51.411981]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.166982, 51.40257]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Ice"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.194353, 51.419452]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 2,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Rain",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.15143, 51.417433]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 1,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.222706, 51.459723]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 3,
+				"Road_Type": "Roundabout",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.162552, 51.466439]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 7,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.161915, 51.464361]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 7,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.390935, 51.534811]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 7,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Other",
+				"Road_Surface_Conditions": "Ice"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.377529, 51.54281]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 3,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 40,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.403948, 51.517274]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 1,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 40,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.410199, 51.519877]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 2,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 40,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Unknown",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.108473, 51.597232]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 2,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.058196, 51.587778]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.103804, 51.60534]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 1,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights-Unknown",
+				"Weather_Conditions": "Unknown",
+				"Road_Surface_Conditions": "Ice"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.12735, 51.598164]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Rain",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.088533, 51.380633]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 1,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Rain",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.161437, 51.365163]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.952837, 54.929614]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 3,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 40,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Other",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.201124, 54.139913]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Snow",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.21947, 54.113034]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 7,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.607824, 54.360343]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 3,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 1,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 70,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Rain",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.936937, 54.890105]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 3,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.616163, 53.665089]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Snow-Wind",
+				"Road_Surface_Conditions": "Snow"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.633163, 53.765267]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 6,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 70,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.697755, 53.721054]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 1,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Snow",
+				"Road_Surface_Conditions": "Ice"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.711437, 53.770266]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 3,
+				"Number_of_Vehicles": 3,
+				"Day_of_Week": 2,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Rain",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.707059, 53.770696]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.375267, 53.755278]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.24895, 53.789708]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 5,
+				"Road_Type": "Roundabout",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Snow",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.233584, 53.827228]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.30607, 53.689662]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 2,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 70,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.648492, 53.734202]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 6,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 70,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Snow",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.770432, 53.536503]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 4,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 70,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.030087, 53.387981]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.001638, 53.634162]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 3,
+				"Number_of_Vehicles": 3,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.966415, 53.477865]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.878757, 53.465148]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 3,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 5,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 40,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fog",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.889334, 53.466688]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 5,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 6,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 70,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.724593, 53.426002]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 4,
+				"Day_of_Week": 5,
+				"Road_Type": "Roundabout",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.942706, 53.448301]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 4,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.955737, 53.411702]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Snow",
+				"Road_Surface_Conditions": "Snow"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.892007, 53.414532]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 2,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Snow-Wind",
+				"Road_Surface_Conditions": "Snow"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.917634, 53.409843]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 4,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.959506, 53.391985]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Snow",
+				"Road_Surface_Conditions": "Snow"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.903167, 53.367498]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 2,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.195342, 53.466602]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 6,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Snow",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.344029, 53.505007]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 7,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 50,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.33199, 53.507828]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 1,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Ice"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.296948, 53.456055]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.426846, 53.419078]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.295804, 53.551517]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Unknown",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.29087, 53.602315]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Snow-Wind",
+				"Road_Surface_Conditions": "Snow"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.29266, 53.598895]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.2426, 53.591277]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.131776, 53.613202]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 4,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Snow",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.513654, 53.067622]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 7,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.371399, 53.358768]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 3,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 70,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Ice"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.313574, 53.095376]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.522549, 53.407192]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 4,
+				"Day_of_Week": 6,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 70,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Snow",
+				"Road_Surface_Conditions": "Snow"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.757986, 53.37765]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 6,
+				"Road_Type": "Roundabout",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.722558, 54.967189]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 40,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Other",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.592559, 54.952768]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Snow",
+				"Road_Surface_Conditions": "Snow"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.708413, 55.364154]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Ice"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.466519, 54.85722]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 2,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Snow",
+				"Road_Surface_Conditions": "Snow"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.343201, 54.766478]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 2,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Snow",
+				"Road_Surface_Conditions": "Snow"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.630685, 54.657982]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 3,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 1,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Snow",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.651132, 54.63252]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.416639, 54.056725]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.416638, 54.056743]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 4,
+				"Number_of_Vehicles": 3,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.125429, 53.777986]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 7,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 40,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.149435, 53.704435]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.151873, 53.698475]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 3,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Rain",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.071446, 53.833803]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 7,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.55867, 54.177797]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Snow",
+				"Road_Surface_Conditions": "Snow"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.265516, 53.875011]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 7,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 70,
+				"Light_Conditions": "Lights-Unknown",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.085388, 53.96239]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Snow",
+				"Road_Surface_Conditions": "Snow"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.01699, 53.958284]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 3,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Snow",
+				"Road_Surface_Conditions": "Snow"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.956166, 53.666945]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 3,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights-Unknown",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.321772, 53.590113]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights-Unknown",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.713029, 53.810664]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 1,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.616278, 53.883395]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.516881, 53.81692]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 5,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.540871, 53.78436]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights-Unknown",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.861877, 53.712876]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 7,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.492731, 53.649385]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.693886, 53.613512]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.783537, 53.628521]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 1,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Snow",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.535609, 53.788069]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 1,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights-Unknown",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.540356, 53.796788]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.837676, 53.591844]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights-Unknown",
+				"Weather_Conditions": "Snow",
+				"Road_Surface_Conditions": "Snow"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.711096, 53.798103]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 3,
+				"Day_of_Week": 1,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights-Unknown",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.615088, 53.858944]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 1,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights-Unknown",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.565036, 53.789914]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 4,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.633588, 53.74958]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 4,
+				"Road_Type": "Roundabout",
+				"Speed_limit": 40,
+				"Light_Conditions": "Lights-Unknown",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.508604, 53.397625]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Rain",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.35001, 53.435277]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 7,
+				"Road_Type": "Roundabout",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.967489, 53.629819]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 7,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 70,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Unknown",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.370176, 53.358224]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.162589, 53.53617]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 3,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 40,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.415341, 53.374831]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 6,
+				"Road_Type": "Roundabout",
+				"Speed_limit": 40,
+				"Light_Conditions": "Lights-Unknown",
+				"Weather_Conditions": "Snow",
+				"Road_Surface_Conditions": "Snow"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.278686, 53.493295]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 7,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Rain",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.50194, 53.377157]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 7,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.351871, 53.331725]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights-Unknown",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.435977, 53.38409]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 4,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 50,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Wind",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.459425, 53.403552]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 3,
+				"Number_of_Vehicles": 3,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Snow",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.138938, 53.570691]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.63158, 53.611707]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Rain",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.653128, 53.89452]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.452942, 53.864888]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 1,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 50,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.360517, 53.778658]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 4,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Daylight",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.288254, 53.766457]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.349217, 53.759131]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 1,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Snow",
+				"Road_Surface_Conditions": "Snow"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.224154, 54.564994]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 2,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.098772, 52.613187]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 4,
+				"Road_Type": "Roundabout",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Other",
+				"Road_Surface_Conditions": "Ice"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.155356, 52.576627]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Unknown",
+				"Road_Surface_Conditions": "Ice"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.168134, 52.599264]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.782187, 52.451566]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Rain",
+				"Road_Surface_Conditions": "Snow"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.570358, 52.42959]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 4,
+				"Day_of_Week": 7,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.579235, 52.393211]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.832064, 52.530671]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.85483, 52.511013]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 7,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.832428, 52.589826]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Rain",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.846845, 52.519273]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Rain-Wind",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.930135, 52.41165]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 4,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.827317, 52.462968]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 1,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.852462, 52.470195]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Snow",
+				"Road_Surface_Conditions": "Snow"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.884721, 52.462769]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 5,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.805868, 52.487298]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 7,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights-Unknown",
+				"Weather_Conditions": "Rain",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.896341, 52.466106]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 4,
+				"Day_of_Week": 4,
+				"Road_Type": "Slip-Road",
+				"Speed_limit": 40,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Other",
+				"Road_Surface_Conditions": "Ice"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.154531, 52.991403]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 5,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 7,
+				"Road_Type": "Slip-Road",
+				"Speed_limit": 50,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.120873, 53.005753]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 3,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.154743, 53.046355]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 7,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.938984, 52.752519]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.244423, 53.091349]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Snow",
+				"Road_Surface_Conditions": "Snow"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.213031, 52.17476]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 7,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.308514, 52.131214]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 1,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.515609, 52.18893]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.55954, 51.935816]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Ice"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.872836, 52.687867]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Ice"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.761382, 52.667959]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "Daylight",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.51539, 52.69958]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.590083, 52.348441]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights-Unknown",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.562969, 52.355734]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 1,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Snow",
+				"Road_Surface_Conditions": "Snow"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.80665, 52.35927]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 3,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 70,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.492307, 52.460018]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 4,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 70,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fog",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.685992, 52.576097]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 2,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 70,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Rain",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.412723, 53.274394]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 1,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.311203, 53.292817]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 3,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 40,
+				"Light_Conditions": "Lights-Unknown",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.41878, 53.181565]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 3,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 50,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Rain",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.47494, 52.90774]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 1,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Unknown",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.469963, 52.925697]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.202715, 53.113866]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 2,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Other",
+				"Road_Surface_Conditions": "Snow"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.153471, 52.969226]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Other",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.176544, 52.960218]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 7,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.112674, 52.931243]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 7,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 40,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.075794, 52.972369]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.150792, 52.902287]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.229386, 53.05944]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 50,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Snow",
+				"Road_Surface_Conditions": "Snow"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.272923, 52.938166]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.060033, 52.969417]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights-Unlit",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.000855, 52.783004]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 7,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Other",
+				"Road_Surface_Conditions": "Ice"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.181377, 52.881375]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.012502, 53.362802]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 1,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.567416, 53.333767]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 1,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Snow",
+				"Road_Surface_Conditions": "Snow"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.541458, 53.229585]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 3,
+				"Road_Type": "One-Way",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.763748, 52.996917]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 5,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 70,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Other",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.100027, 52.633769]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 7,
+				"Road_Type": "Roundabout",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.275467, 52.724961]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Ice"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.450442, 52.751972]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 6,
+				"Road_Type": "Roundabout",
+				"Speed_limit": 40,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.069803, 52.654977]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Snow",
+				"Road_Surface_Conditions": "Ice"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.155059, 52.626622]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.900122, 52.240045]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 5,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Snow",
+				"Road_Surface_Conditions": "Snow"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.175226, 52.183309]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 3,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Other",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.04022, 52.482823]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.299374, 52.571798]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 2,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 70,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.303331, 52.541915]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Rain",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.080543, 52.31759]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 3,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 7,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.309022, 52.524284]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 4,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 70,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.071876, 52.40215]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 7,
+				"Road_Type": "Roundabout",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Unknown",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.309556, 52.36159]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 3,
+				"Number_of_Vehicles": 4,
+				"Day_of_Week": 2,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.148675, 52.22426]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 2,
+				"Road_Type": "Roundabout",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Unknown",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [1.076003, 52.451945]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 1,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fog",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.91282, 52.85087]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 2,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 40,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Snow",
+				"Road_Surface_Conditions": "Snow"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [1.123249, 52.041774]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 1,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.707204, 52.245958]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 2,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.845196, 52.232116]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 2,
+				"Road_Type": "Slip-Road",
+				"Speed_limit": 70,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [1.09406, 52.071263]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.714533, 52.304765]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Ice"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.713335, 52.255673]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 5,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 70,
+				"Light_Conditions": "Daylight",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [1.707502, 52.483935]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.412163, 52.12803]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.038992, 51.823445]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 2,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.135156, 51.80708]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 2,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Ice"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.210674, 51.828949]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 3,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 6,
+				"Road_Type": "Roundabout",
+				"Speed_limit": 60,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.199497, 51.818077]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 3,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 7,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 40,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Rain",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.461256, 51.762268]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.463516, 51.738378]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.662891, 51.804118]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Wind",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.187289, 51.991887]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.027094, 51.685819]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 7,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [1.141213, 51.793937]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 3,
+				"Day_of_Week": 7,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.940858, 51.88631]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.025857, 51.692948]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Snow",
+				"Road_Surface_Conditions": "Ice"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.899263, 51.903271]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 3,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 1,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Snow",
+				"Road_Surface_Conditions": "Snow"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.490846, 51.585158]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 6,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 40,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Ice"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.585276, 51.52489]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 1,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.917905, 51.890974]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Wind",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.943464, 51.683897]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 50,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Other",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.351499, 52.062412]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.316746, 51.792751]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 1,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Other",
+				"Road_Surface_Conditions": "Ice"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.264856, 51.777314]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 20,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.314537, 52.091828]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 7,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 50,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Rain",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.792926, 52.065675]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 5,
+				"Road_Type": "Roundabout",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.770622, 51.248748]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.793173, 50.848872]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 4,
+				"Number_of_Vehicles": 3,
+				"Day_of_Week": 6,
+				"Road_Type": "Slip-Road",
+				"Speed_limit": 70,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.071521, 50.789606]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 4,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.013559, 50.876802]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 6,
+				"Road_Type": "Roundabout",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.472393, 50.933338]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.536278, 50.9502]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 4,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 2,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.350804, 50.687644]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Ice"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.292886, 50.622916]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Ice"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.375847, 50.942142]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 3,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 40,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.394309, 50.833545]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 7,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.282188, 50.624497]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.521668, 50.682373]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.438249, 51.373928]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights-Unknown",
+				"Weather_Conditions": "Rain",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.57883, 51.3176]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 3,
+				"Road_Type": "Roundabout",
+				"Speed_limit": 40,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.671118, 51.294206]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 3,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 1,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Snow",
+				"Road_Surface_Conditions": "Snow"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.612476, 51.320638]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 7,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Rain",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.178105, 51.16719]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 5,
+				"Road_Type": "Roundabout",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.472318, 51.426498]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 7,
+				"Road_Type": "Roundabout",
+				"Speed_limit": 40,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.000328, 51.26865]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 4,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 70,
+				"Light_Conditions": "Lights-Unknown",
+				"Weather_Conditions": "Unknown",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.508164, 51.439747]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 4,
+				"Day_of_Week": 5,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 70,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.082589, 51.313762]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Rain",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.742572, 51.341486]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.459245, 51.35818]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [1.297553, 51.154783]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 2,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 50,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.323394, 51.211211]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 1,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.412455, 51.399895]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 3,
+				"Road_Type": "Roundabout",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.248611, 51.439218]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.142098, 51.201452]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 3,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Unknown",
+				"Road_Surface_Conditions": "Ice"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [1.084089, 51.273857]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 7,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Rain",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.336966, 51.442075]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 1,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.861495, 51.125437]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 1,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 40,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.049911, 50.791502]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 1,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.560534, 50.864155]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 4,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.366242, 50.810161]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 4,
+				"Road_Type": "One-Way",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Other",
+				"Road_Surface_Conditions": "Ice"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.297207, 50.883156]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.144113, 50.855944]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Snow",
+				"Road_Surface_Conditions": "Snow"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-5.283293, 50.228481]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 40,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-5.276176, 50.246782]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 7,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-4.386996, 50.629521]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 3,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 70,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fog",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-4.302755, 50.386007]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 40,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.522541, 50.728072]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Rain",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.502622, 50.731262]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-4.135678, 50.384366]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Rain",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-4.138121, 50.385832]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-4.148415, 50.417159]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 4,
+				"Road_Type": "Roundabout",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-4.06892, 50.455253]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 3,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.543271, 50.39004]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 1,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 40,
+				"Light_Conditions": "Daylight",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.51773, 50.692296]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 7,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 40,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.411069, 50.625582]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 3,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.37401, 50.630828]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 40,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.775367, 51.277751]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 3,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.009023, 51.127209]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 3,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights-Unlit",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.653617, 51.269682]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Ice"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.856808, 51.183978]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.350856, 51.50235]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Rain-Wind",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.51335, 51.447918]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 7,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Other",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.555342, 51.546447]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Unknown",
+				"Road_Surface_Conditions": "Ice"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.519311, 51.473662]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Ice"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.584067, 51.45951]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 3,
+				"Day_of_Week": 2,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.626837, 51.408395]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.685809, 51.704646]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 2,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.298818, 51.702663]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 3,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.702663, 51.678939]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 7,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.760998, 51.176261]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 5,
+				"Road_Type": "Roundabout",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Rain",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.884758, 51.122621]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 1,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 50,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Snow",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.860465, 51.184982]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Snow",
+				"Road_Surface_Conditions": "Ice"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.942194, 50.816658]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 3,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Ice"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.008897, 50.738345]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 3,
+				"Day_of_Week": 5,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 70,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Ice"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.999436, 53.047993]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 1,
+				"Road_Type": "One-Way",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-4.544434, 53.262081]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 2,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Rain",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.793728, 52.934656]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 2,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.48204, 53.317062]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 3,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 7,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.88844, 52.791752]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.018627, 51.659846]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 40,
+				"Light_Conditions": "Lights-Unknown",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Ice"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.967074, 51.587988]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Ice"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.02219, 51.567559]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 3,
+				"Road_Type": "Roundabout",
+				"Speed_limit": 30,
+				"Light_Conditions": "Daylight",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.204945, 51.510974]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 1,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Daylight",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.878573, 51.662726]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 4,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 70,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.901611, 51.660377]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 1,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.783639, 51.598112]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Rain",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.174993, 51.438981]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Rain-Wind",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.973183, 51.647056]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.56051, 51.495541]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 4,
+				"Road_Type": "Roundabout",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights-Unknown",
+				"Weather_Conditions": "Wind",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.130174, 51.529252]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 4,
+				"Road_Type": "Roundabout",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-4.124274, 51.684887]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.462603, 57.537617]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 6,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.726011, 57.145059]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 1,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Snow"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.817789, 57.523287]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 4,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 2,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Snow",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.98275, 56.477958]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 7,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.771923, 56.697138]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.621504, 56.58294]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Snow",
+				"Road_Surface_Conditions": "Snow"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.037667, 56.177208]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.040126, 56.185929]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 4,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Snow",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.243752, 55.945419]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 2,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 1,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Daylight",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.190443, 55.951068]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 2,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 20,
+				"Light_Conditions": "Daylight",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.760985, 56.13861]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 5,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Other",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-4.332538, 55.855563]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 1,
+				"Day_of_Week": 7,
+				"Road_Type": "Dual-Carriageway",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Rain",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-4.369912, 55.876519]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 3,
+				"Day_of_Week": 7,
+				"Road_Type": "Roundabout",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.888295, 55.89311]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 3,
+				"Day_of_Week": 6,
+				"Road_Type": "One-Way",
+				"Speed_limit": 30,
+				"Light_Conditions": "Lights-Unknown",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Wet"
+			}
+		}, {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.444844, 55.29319]
+			},
+			"properties": {
+				"Year": 2013,
+				"TimeHour": 20,
+				"Month": "1",
+				"Number_of_Casualties": 1,
+				"Number_of_Vehicles": 3,
+				"Day_of_Week": 3,
+				"Road_Type": "Single-Carriageway",
+				"Speed_limit": 60,
+				"Light_Conditions": "No-Lights",
+				"Weather_Conditions": "Fine",
+				"Road_Surface_Conditions": "Dry"
+			}
+		}
+	]
+}
