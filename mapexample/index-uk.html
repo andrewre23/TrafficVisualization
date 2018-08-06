@@ -7,7 +7,7 @@
     //Added JQuery import
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <style>
-        svg{
+        svg {
             border-color: black;
             border-style: solid;
         }
@@ -22,34 +22,34 @@
     var width = 658,
         height = 817;
 
-    var svg = d3.select( "body" )
-        .append( "svg" )
-        .attr( "width", width )
-        .attr( "height", height );
+    var svg = d3.select("body")
+        .append("svg")
+        .attr("width", width)
+        .attr("height", height);
 
-    var g = svg.append( "g" );
+    var g = svg.append("g");
 
     var albersProjection = d3.geoAlbers()
-        .scale( 4500 )
-        .rotate( [0,0] )
-        .center( [-3, 55.3] )
-        .translate( [width/2,height/2] );
+        .scale(4500)
+        .rotate([0, 0])
+        .center([-3, 55.3])
+        .translate([width / 2, height / 2]);
 
     var geoPath = d3.geoPath()
-        .projection( albersProjection );
+        .projection(albersProjection);
 
-    g.selectAll( "path" )
-        .data( uk_json.features )
+    g.selectAll("path")
+        .data(uk_json.features)
         .enter()
-        .append( "path" )
-        .attr( "fill", "#ccc" )
-        .attr( "d", geoPath );
+        .append("path")
+        .attr("fill", "#ccc")
+        .attr("d", geoPath);
     console.log('neighbors ' + neighborhoods_json.type);
     console.log('country ' + uk_json.type);
 
 
     //Use JQuery to read local JSON file
-    var hour1json = (function() {
+    var hour1json = (function () {
         var json = null;
         $.ajax({
             'async': false,
@@ -68,22 +68,22 @@
     console.log(hour1json);
 
     //Section to add accidents. However, currently has side effect of cutting off large portion of UK map and not reloading
-    g.selectAll( "path" )
-        .data( hour1json.features )
+    g.selectAll("path")
+        .data(hour1json.features)
         .enter()
-        .append( "path" )
-        .attr( "fill", "#ccc" )
-        .attr( "d", geoPath );
+        .append("path")
+        .attr("fill", "#ccc")
+        .attr("d", geoPath);
 
     //This code block is the one causing the map to be cut
-    var accidents = svg.append( "g" );
-    accidents.selectAll( "path" )
-        .data( hour1json.features )
+    var accidents = svg.append("g");
+    accidents.selectAll("path")
+        .data(hour1json.features)
         .enter()
-        .append( "path" )
-        .attr( "fill", "#900" )
-        .attr( "stroke", "#999" )
-        .attr( "d", geoPath );
+        .append("path")
+        .attr("fill", "#900")
+        .attr("stroke", "#999")
+        .attr("d", geoPath);
 
 
 </script>
