@@ -334,6 +334,7 @@ function bar_init() {
     bartimeperiod = "total";
     lineselection = "total";
     barselection = "Total";
+    timeinterval = "Hour";
     bar_total();
     bar_avg();
     mapdraw();
