@@ -12,7 +12,7 @@ function bar_total() {
         countfile = "barfiles/weathercount.csv";
     else if (xLabel === "Road_Surface_Conditions")
         countfile = "barfiles/roadsurfacecount.csv";
-    console.log(countfile);
+    console.log('Bar Total file: ' + countfile);
 
 // set the dimensions and margins of the graph
     var margin = {top: 20, right: 45, bottom: 70, left: 50},
@@ -143,7 +143,7 @@ function bar_total() {
     };
     select_bar1 = function (d) {
         barselection = d;
-        console.log(barselection);
+        console.log('Selecting: ' + barselection);
         svg.selectAll(".bar1").style("fill", "steelblue");
         svg.select(".bar1_" + d).style("fill", "#315b7d").style("opacity", 1);
     };
@@ -154,7 +154,7 @@ function bar_total() {
 }
 
 function updatebartotal(elem) {
-    console.log(elem);
+    console.log('Elem: ' + elem);
     xLabel = elem;
     d3.select('#bar_totalaccidents').selectAll("*").remove();
     d3.select('#bar_avgcasualties').selectAll("*").remove();
@@ -176,7 +176,7 @@ function bar_avg() {
         avgfile = "barfiles/weatherpercent.csv";
     else if (xLabel === "Road_Surface_Conditions")
         avgfile = "barfiles/roadsurfacepercent.csv";
-    console.log(avgfile);
+    console.log('Average file: ' + avgfile);
 
 // set the dimensions and margins of the graph
     var margin = {top: 20, right: 45, bottom: 70, left: 45},
@@ -251,7 +251,7 @@ function bar_avg() {
                 unhighlight_bar1(d[xLabel]);
             })
             .on("click", function (d) {
-                if (barselection == d[xLabel]) {
+                if (barselection === d[xLabel]) {
                     unselect_bar1(d[xLabel]);
                     unselect_bar(d[xLabel]);
                 }
@@ -309,7 +309,7 @@ function bar_avg() {
     };
     select_bar = function (d) {
         barselection = d;
-        console.log(barselection);
+        console.log('Selecting: ' + barselection);
         d3.select('#linegraphdiv').selectAll("*").remove();
         line_plot();
         svg.selectAll(".bar").style("fill", "steelblue");

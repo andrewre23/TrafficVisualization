@@ -24,7 +24,7 @@ function line_plot() {
         linefile = "linefiles/weatherline.csv";
     else if (xLabel === "Road_Surface_Conditions")
         linefile = "linefiles/roadsurfaceline.csv";
-    console.log(linefile);
+    console.log('Linefile: '+ linefile);
 
     var margin = {top: 20, right: 25, bottom: 50, left: 60},
         width = 760 - margin.left - margin.right,
@@ -58,15 +58,13 @@ function line_plot() {
 
     // Get the data
     d3.csv(linefile, function (error, data) {
-        console.log(data);
-        console.log(data.columns[0]);
         data.forEach(function (d) {
             //d.Hour = parseTime(d.Hour);
             d.Hour = +d.Hour;
             d[barselection] = +d[barselection];
         });
-
-        console.log(data.barselection);
+        console.log('Next is the test');
+        console.log(data[barselection]);
 
         // Scale the range of the data
         x.domain(d3.extent(data, function (d) {
