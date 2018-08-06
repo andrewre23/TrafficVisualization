@@ -29,17 +29,24 @@ html, body {
     height: 100%;
     background: none;
     float: left;
+    display: flex;
+    align-items: center;
 }
 
 #mapdiv {
     width: 658;
     height:817;
+    display: block;
+    margin: auto;
+
 }
 
 #mapdiv svg {
     border-color: black;
     border-style: solid;
     background: white;
+    display: block;
+    margin: auto;
 }
 
 #summary {
