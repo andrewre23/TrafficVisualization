@@ -1,47 +1,40 @@
 <html>
 <head>
-    <title>UK D3 map</title>
+    <title>A D3 map</title>
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <script src="neighborhoods.js"></script>
-    <script src="../js/uk_map.js"></script>
-    <style>
-        svg{
-            border-color: black;
-            border-style: solid;
-        }
-
-
-    </style>
+    <script src="rodents.js"></script>
 </head>
 <body>
 <script>
-    var width = 658,
-        height = 817;
-
+    var width = 700,
+        height = 580;
     var svg = d3.select( "body" )
         .append( "svg" )
         .attr( "width", width )
         .attr( "height", height );
-
-    var g = svg.append( "g" );
-
+    var neighborhoods = svg.append( "g" );
     var albersProjection = d3.geoAlbers()
-        .scale( 4500 )
-        .rotate( [0,0] )
-        .center( [-3, 55.3] )
+        .scale( 190000 )
+        .rotate( [71.057,0] )
+        .center( [0, 42.313] )
         .translate( [width/2,height/2] );
-
     var geoPath = d3.geoPath()
         .projection( albersProjection );
-
-    g.selectAll( "path" )
-        .data( uk_json.features )
+    neighborhoods.selectAll( "path" )
+        .data( neighborhoods_json.features )
         .enter()
         .append( "path" )
         .attr( "fill", "#ccc" )
         .attr( "d", geoPath );
-    console.log('neighbors ' + neighborhoods_json.type);
-    console.log('country ' + uk_json.type);
+    var rodents = svg.append( "g" );
+    rodents.selectAll( "path" )
+        .data( rodents_json.features )
+        .enter()
+        .append( "path" )
+        .attr( "fill", "#900" )
+        .attr( "stroke", "#999" )
+        .attr( "d", geoPath );
 </script>
 </body>
 </html>
