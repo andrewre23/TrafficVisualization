@@ -79,12 +79,12 @@ function mapdraw() {
 
     var geoPath = d3.geoPath()
         .projection(albersProjection);
-    if(timeinterval == "Hour")
+    if(timeinterval === "Hour")
         jqueryfile ="../data/mapfiles/hourly/hour" + lineselection + ".json";
-    else if (timeinterval == "Month")
+    else if (timeinterval === "Month")
         jqueryfile ="../data/mapfiles/monthly/monthly" + lineselection + ".json";
 
-    if(lineselection != "total") {
+    if(lineselection !== "total") {
         //Use JQuery to read local JSON file
         var hour1json = (function () {
             var json = null;
