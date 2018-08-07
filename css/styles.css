@@ -56,15 +56,28 @@ html, body {
     float: left;
 }
 
-table.SummaryStats {
+#summarytable {
     border-collapse: collapse;
-    border: 5px solid black;
-    width: 50%;
+    border: 2px solid black;
+    width: 100%;
+    height: 100%;
 }
-td.SummaryStats {
+
+th{
+    height: 15%;
+    font-size: 24px;
+    background: blue;
+    color: white;
+    border: 1px solid black;
+}
+td {
     width: 50%;
-    height: 2em;
-    border: 1px solid #ccc;
+    height: 10%;
+    text-align: center;
+    border: 1px solid black;
+    background: lightgreen;
+    font-weight: bold;
+
 }
 
 #linegraph {
