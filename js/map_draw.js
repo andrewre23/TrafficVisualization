@@ -104,6 +104,8 @@ function mapdraw() {
         console.log('test');
         console.log(hour1json);
 
+        var color = d3.scaleOrdinal(d3.schemeCategory20);
+
         var accidents = svg.append("g");
         accidents.selectAll("path")
             .data(hour1json.features)
@@ -112,14 +114,27 @@ function mapdraw() {
             .attr("fill", "#900")
             .attr("stroke", "#999")
             .attr("d", geoPath)
-            .attr('class','invisible')
+            .attr('fill',function(d){
+                if (xLabel === "Day_of_Week")
+                    return color(d.properties.weekday);
+                else if (xLabel === "Road_Type")
+                    return color(d.properties.roadtype);
+                else if (xLabel === "Speed_limit")
+                    return color(d.properties.speed);
+                else if (xLabel === "Light_Conditions")
+                    return color(d.properties.light);
+                else if (xLabel === "Weather_Conditions")
+                    return color(d.properties.weather);
+                else if (xLabel === "Road_Surface_Conditions")
+                    return color(d.properties.roadsurface);
+            })
             .on("mouseover", function(d){
                 d3.select("#summarydiv").text('Casualties: ' + d.properties.casualties + '\n' + 'Vehicles: ' + d.properties.vehicles);
-                d3.select(this).attr("class","visible");
+                d3.select(this).attr("class","accident_over");
             })
             .on("mouseout", function(d){
                 d3.select("#summarydiv").text("");
-                d3.select(this).attr("class","invisible");
+                d3.select(this).attr("class","accident_base");
             });
     }
 

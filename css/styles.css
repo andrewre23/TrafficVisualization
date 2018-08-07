@@ -179,3 +179,14 @@ h4 {
 .invisible{
     opacity: 0.2;
 }
+
+.accident_over{
+    fill: yellow;
+    opacity: 0.8;
+}
+
+
+.accident_base{
+    fill: red;
+    opacity: 0.3;
+}
