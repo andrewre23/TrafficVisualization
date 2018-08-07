@@ -112,6 +112,7 @@ function mapdraw() {
             .attr("fill", "#900")
             .attr("stroke", "#999")
             .attr("d", geoPath)
+            .attr('class','accident_base')
             .attr('fill',function(d){
                 if (xLabel === "Day_of_Week")
                     return color(d.properties.weekday);
@@ -127,9 +128,9 @@ function mapdraw() {
                     return color(d.properties.surface);
             })
             .on("mouseover", function(d){
-                d3.select("#vehiclevalue").text(d.properties.vehicles);
-                d3.select("#speedvalue").text(d.properties.speed);
-                d3.select("#casualtiesvalue").text(d.properties.casualties);
+                d3.select("#vehiclevalue").text(d.properties.vehicles + ' vehicles');
+                d3.select("#speedvalue").text(d.properties.speed + ' KPH');
+                d3.select("#casualtiesvalue").text(d.properties.casualties + ' casualties   ');
                 d3.select("#weekdayvalue").text(d.properties.weekday);
                 d3.select("#weathervalue").text(d.properties.weather);
                 d3.select("#lightvalue").text(d.properties.light);
