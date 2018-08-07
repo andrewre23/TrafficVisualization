@@ -124,7 +124,7 @@ function mapdraw() {
                 else if (xLabel === "Weather_Conditions")
                     return color(d.properties.weather);
                 else if (xLabel === "Road_Surface_Conditions")
-                    return color(d.properties.roadsurface);
+                    return color(d.properties.surface);
             })
             .on("mouseover", function(d){
                 d3.select("#summarydiv").text('Casualties: ' + d.properties.casualties + '\n' + 'Vehicles: ' + d.properties.vehicles);
