@@ -133,7 +133,9 @@ function bar_total() {
             .call(d3.axisLeft(y));
 
         if (barselection !== "Total")
-            svg.select(".bar1_" + barselection).style("fill", "#315b7d").style("opacity", 1);
+            svg.select(".bar1_" + barselection)
+            //.style("fill", "#315b7d")
+                .style("opacity", 1).style("stroke","black").style("stroke-width", "2px");
 
     });
 
@@ -312,7 +314,9 @@ function bar_avg() {
             .call(d3.axisLeft(y));
 
         if (barselection !== "Total")
-            svg.select(".bar_" + barselection).style("fill", "#315b7d").style("opacity", 1);
+            svg.select(".bar_" + barselection)
+            //.style("fill", "#315b7d")
+                .style("opacity", 1).style("stroke","black").style("stroke-width", "2px");
 
     });
 
