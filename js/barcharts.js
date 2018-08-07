@@ -74,6 +74,9 @@ function bar_total() {
         bars.append("rect")
             .attr("width", 0.9 * x.bandwidth())
             .attr("x", 0.05 * x.bandwidth())
+            .attr("fill", function (d){
+                return color(d[xLabel])
+            })
             .attr("height", function (d) {
                 return height - y(d[bartimeperiod]);
             })
@@ -221,7 +224,6 @@ function bar_avg() {
             return d[bartimeperiod];
         })]);
 
-
         var bars = svg.selectAll(".bar")
             .data(data)
             .enter().append("g")
@@ -241,6 +243,9 @@ function bar_avg() {
         bars.append("rect")
             .attr("width", 0.9 * x.bandwidth())
             .attr("x", 0.05 * x.bandwidth())
+            .attr("fill", function (d){
+                return color(d[xLabel])
+            })
             .attr("height", function (d) {
                 return height - y(d[bartimeperiod]);
             })
