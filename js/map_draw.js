@@ -149,6 +149,8 @@ function mapdraw() {
                 d3.select("#lightvalue").text("");
                 d3.select("#surfacevalue").text("");
                 d3.select("#roadtypevalue").text("");
+                d3.select("#latval").text("");
+                d3.select("#longval").text("");
                 d3.select(this).attr("class","accident_base");
             });
     }
