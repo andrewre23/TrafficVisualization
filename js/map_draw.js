@@ -127,11 +127,25 @@ function mapdraw() {
                     return color(d.properties.surface);
             })
             .on("mouseover", function(d){
-                d3.select("#summarydiv").text('Casualties: ' + d.properties.casualties + '\n' + 'Vehicles: ' + d.properties.vehicles);
+                d3.select("#vehiclevalue").text(d.properties.vehicles);
+                d3.select("#speedvalue").text(d.properties.speed);
+                d3.select("#casualtiesvalue").text(d.properties.casualties);
+                d3.select("#weekdayvalue").text(d.properties.weekday);
+                d3.select("#weathervalue").text(d.properties.weather);
+                d3.select("#lightvalue").text(d.properties.light);
+                d3.select("#surfacevalue").text(d.properties.surface);
+                d3.select("#roadtypevalue").text(d.properties.roadtype);
                 d3.select(this).attr("class","accident_over");
             })
             .on("mouseout", function(d){
-                d3.select("#summarydiv").text("");
+                d3.select("#vehiclevalue").text("");
+                d3.select("#speedvalue").text("");
+                d3.select("#casualtiesvalue").text("");
+                d3.select("#weekdayvalue").text("");
+                d3.select("#weathervalue").text("");
+                d3.select("#lightvalue").text("");
+                d3.select("#surfacevalue").text("");
+                d3.select("#roadtypevalue").text("");
                 d3.select(this).attr("class","accident_base");
             });
     }
