@@ -81,10 +81,12 @@ td {
 }
 
 #linegraph {
-    width: 40%;
-    height: 45%;
+    width: 39.5%;
+    height: 44.3%;
     background: white;
     float: right;
+    border-color: black;
+    border-style: solid;
 }
 
 #linegraphdiv {
@@ -141,7 +143,7 @@ td {
 
 #bar1 {
     width: 32.175%;
-    height: 45%;
+    height: 44.7%;
     background: white;
     float: left;
     border-style: none solid solid solid;
@@ -150,7 +152,7 @@ td {
 
 #bar2 {
     width: 32.175%;
-    height: 45%;
+    height: 44.7%;
     background: white;
     float: right;
     border-style: none solid solid solid;
@@ -162,11 +164,13 @@ td {
 }
 
 .bar {
-    fill: steelblue;
+    fill: black;
+    color: black;
 }
 
 .bar1 {
-    fill: steelblue;
+    fill: black;
+    color:black;
 }
 
 .axis {

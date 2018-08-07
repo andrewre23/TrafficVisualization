@@ -151,11 +151,17 @@ function bar_total() {
         barselection = d;
         console.log('Selecting: ' + barselection);
         svg.selectAll(".bar1").style("fill", "steelblue");
-        svg.select(".bar1_" + d).style("fill", "#315b7d").style("opacity", 1);
+        svg.select(".bar1_" + d)
+        //.style("fill", "#315b7d")
+            .style("opacity", 1).style("stroke","black").style("stroke-width", "2px");
     };
     unselect_bar1 = function (d) {
         barselection = "Total";
-        svg.select("#bar1_" + d).style("fill", "steelblue");
+        svg.select("#bar1_" + d)
+        //.style("fill", "steelblue")
+            .style("stroke","black").style("stroke-width", "0px");
+        svg.select(".bar1_text_" + d).style("stroke", "black").style("stroke-width", "1px")
+            .style("font-family", "Calibri");
     };
 }
 
@@ -326,13 +332,19 @@ function bar_avg() {
         d3.select('#linegraphdiv').selectAll("*").remove();
         line_plot();
         svg.selectAll(".bar").style("fill", "steelblue");
-        svg.select(".bar_" + d).style("fill", "#315b7d").style("opacity", 1);
+        svg.select(".bar_" + d)
+            //.style("fill", "#315b7d")
+            .style("opacity", 1).style("stroke","black").style("stroke-width", "2px");
     };
     unselect_bar = function (d) {
         barselection = "Total";
         d3.select('#linegraphdiv').selectAll("*").remove();
         line_plot();
-        svg.select("#bar_" + d).style("fill", "steelblue");
+        svg.select(".bar_" + d)
+            //.style("fill", "steelblue")
+            .style("stroke","black").style("stroke-width", "0px");
+        svg.select(".bar_text_" + d).style("stroke", "black").style("stroke-width", "1px")
+            .style("font-family", "Calibri");
     };
 }
 
