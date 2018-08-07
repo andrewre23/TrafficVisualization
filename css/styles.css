@@ -203,6 +203,7 @@ h4 {
 .accident_over{
     fill: yellow;
     opacity: 1%;
+    stroke: black;
 }
 
 
