@@ -119,14 +119,26 @@ function line_plot() {
             .text("Accident Count");
 
         // text label for the x axis
-        svg.append("text")
-            .attr("transform",
-                "translate(" + (width / 2) + " ," +
-                (height + margin.top + 20) + ")")
-            .style("text-anchor", "middle")
-            .style("font-weight", "bold")
-            .style("font-size", "14pt")
-            .text("Hour of Day");
+        if(timeinterval === "Hour") {
+            svg.append("text")
+                .attr("transform",
+                    "translate(" + (width / 2) + " ," +
+                    (height + margin.top + 20) + ")")
+                .style("text-anchor", "middle")
+                .style("font-weight", "bold")
+                .style("font-size", "14pt")
+                .text("Hour of Day");
+        }
+        else if (timeinterval === "Month"){
+            svg.append("text")
+                .attr("transform",
+                    "translate(" + (width / 2) + " ," +
+                    (height + margin.top + 20) + ")")
+                .style("text-anchor", "middle")
+                .style("font-weight", "bold")
+                .style("font-size", "14pt")
+                .text("Month of the Year");
+        }
 
         var bubble = svg.selectAll('.linebubble')
             .data(data)

@@ -166,6 +166,8 @@ function updatebartotal(elem) {
     d3.select('#bar_avgcasualties').selectAll("*").remove();
     bar_total();
     bar_avg();
+    d3.select('#mapdiv').selectAll("*").remove();
+    mapdraw();
 }
 
 function bar_avg() {
