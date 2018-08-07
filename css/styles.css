@@ -64,7 +64,7 @@ html, body {
 }
 
 th{
-    height: 15%;
+    height: 10%;
     font-size: 24px;
     background: blue;
     color: white;
@@ -72,7 +72,7 @@ th{
 }
 td {
     width: 50%;
-    height: 5%;
+    height: 7%;
     text-align: center;
     border: 1px solid black;
     background: lightgreen;
