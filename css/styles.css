@@ -207,12 +207,12 @@ h4 {
 }
 
 .accident_over{
-    fill: yellow;
-    opacity: 0.8;
+    stroke: black;
+    stroke-width: ;: 2px;
 }
 
 
 .accident_base{
-    fill: red;
-    opacity: 0.3;
+    stroke: black;
+    stroke-width: 0px;
 }
