@@ -111,7 +111,16 @@ function mapdraw() {
             .append("path")
             .attr("fill", "#900")
             .attr("stroke", "#999")
-            .attr("d", geoPath);
+            .attr("d", geoPath)
+            .attr('class','invisible')
+            .on("mouseover", function(d){
+                d3.select("#summarydiv").text('Casualties: ' + d.properties.casualties + '\n' + 'Vehicles: ' + d.properties.vehicles);
+                d3.select(this).attr("class","visible");
+            })
+            .on("mouseout", function(d){
+                d3.select("#summarydiv").text("");
+                d3.select(this).attr("class","invisible");
+            });
     }
 
 }
