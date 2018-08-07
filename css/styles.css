@@ -64,7 +64,7 @@ html, body {
 }
 
 th{
-    height: 15%;
+    height: 10%;
     font-size: 24px;
     background: blue;
     color: white;
@@ -72,7 +72,7 @@ th{
 }
 td {
     width: 50%;
-    height: 10%;
+    height: 7%;
     text-align: center;
     border: 1px solid black;
     background: lightgreen;
@@ -81,19 +81,13 @@ td {
 }
 
 #linegraph {
-    width: 39.6%;
-    height: 44.3%;
+    width: 40%;
+    height: 45%;
     background: white;
     float: right;
-    border-color: black;
-    border-style: solid;
 }
 
 #linegraphdiv {
-
-}
-
-#linegraphdiv svg{
 
 }
 
@@ -147,7 +141,7 @@ td {
 
 #bar1 {
     width: 32.175%;
-    height: 44.7%;
+    height: 45%;
     background: white;
     float: left;
     border-style: none solid solid solid;
@@ -156,7 +150,7 @@ td {
 
 #bar2 {
     width: 32.175%;
-    height: 44.7%;
+    height: 45%;
     background: white;
     float: right;
     border-style: none solid solid solid;
@@ -207,12 +201,12 @@ h4 {
 }
 
 .accident_over{
+    fill: yellow;
+    opacity: 1%;
     stroke: black;
-    stroke-width: ;: 2px;
 }
 
 
 .accident_base{
-    stroke: black;
-    stroke-width: 0px;
+    opacity: 0.9;
 }
