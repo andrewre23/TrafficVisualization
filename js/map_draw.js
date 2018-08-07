@@ -136,8 +136,8 @@ function mapdraw() {
                 d3.select("#lightvalue").text(d.properties.light);
                 d3.select("#surfacevalue").text(d.properties.surface);
                 d3.select("#roadtypevalue").text(d.properties.roadtype);
-                d3.select("#latval").text('Latitude: ' + d.geometry.coordinates[1].toFixed(4) + '°');
-                d3.select("#longval").text('Longitude: ' + d.geometry.coordinates[0].toFixed(4) + '°');
+                d3.select("#latval").text('Latitude: ' + d.geometry.coordinates[0].toFixed(4) + '°');
+                d3.select("#longval").text('Longitude: ' + d.geometry.coordinates[1].toFixed(4) + '°');
                 d3.select(this).attr("class","accident_over");
             })
             .on("mouseout", function(d){
