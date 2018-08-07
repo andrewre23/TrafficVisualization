@@ -104,8 +104,6 @@ function mapdraw() {
         console.log('test');
         console.log(hour1json);
 
-        var color = d3.scaleOrdinal(d3.schemeCategory20);
-
         var accidents = svg.append("g");
         accidents.selectAll("path")
             .data(hour1json.features)
