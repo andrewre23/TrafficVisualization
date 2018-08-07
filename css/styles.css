@@ -34,8 +34,8 @@ html, body {
 }
 
 #mapdiv {
-    width: 658px;
-    height:817px;
+    width: 658;
+    height:817;
     display: block;
     margin: auto;
 
@@ -56,8 +56,15 @@ html, body {
     float: left;
 }
 
-#summarydiv {
-
+table.SummaryStats {
+    border-collapse: collapse;
+    border: 5px solid black;
+    width: 50%;
+}
+td.SummaryStats {
+    width: 50%;
+    height: 2em;
+    border: 1px solid #ccc;
 }
 
 #linegraph {
