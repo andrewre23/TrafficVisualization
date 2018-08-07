@@ -32,7 +32,7 @@ function mapdraw() {
         .attr("d", geoPath);
 
 
-    var hour1json = (function () {
+    var jsondata = (function () {
         var json = null;
         $.ajax({
             'async': false,
@@ -49,7 +49,7 @@ function mapdraw() {
 
     var accidents = svg.append("g");
     accidents.selectAll("path")
-        .data(hour1json.features)
+        .data(jsondata.features)
         .enter()
         .append("path")
         .attr("fill", "#900")
@@ -86,7 +86,7 @@ function mapdraw() {
 
     if(lineselection !== "total") {
         //Use JQuery to read local JSON file
-        var hour1json = (function () {
+        var jsondata = (function () {
             var json = null;
             $.ajax({
                 'async': false,
@@ -102,11 +102,11 @@ function mapdraw() {
         })();
 
         console.log('test');
-        console.log(hour1json);
+        console.log(jsondata);
 
         var accidents = svg.append("g");
         accidents.selectAll("path")
-            .data(hour1json.features)
+            .data(jsondata.features)
             .enter()
             .append("path")
             .attr("fill", "#900")
